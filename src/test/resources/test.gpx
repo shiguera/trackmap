@@ -1,0 +1,4086 @@
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:mlab="http://mercatorlab.com/downloads/mlab.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="MercatorLab - http:mercatorlab.com" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+   <metadata/>
+   <trk>
+      <number>0</number>
+      <trkseg>
+         <trkpt lat="-8.303880" lon="-78.005409">
+            <ele>3213.80</ele>
+            <time>2013-04-23T22:52:56.56Z</time>
+            <extensions>
+               <mlab:bearing>315.86</mlab:bearing>
+               <mlab:speed>3.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303829" lon="-78.005524">
+            <ele>3214.20</ele>
+            <time>2013-04-23T22:52:59.59Z</time>
+            <extensions>
+               <mlab:bearing>284.08</mlab:bearing>
+               <mlab:speed>4.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303867" lon="-78.006154">
+            <ele>3217.90</ele>
+            <time>2013-04-23T22:53:13.13Z</time>
+            <extensions>
+               <mlab:bearing>248.26</mlab:bearing>
+               <mlab:speed>5.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303905" lon="-78.006275">
+            <ele>3218.40</ele>
+            <time>2013-04-23T22:53:15.15Z</time>
+            <extensions>
+               <mlab:bearing>255.91</mlab:bearing>
+               <mlab:speed>7.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303953" lon="-78.006540">
+            <ele>3219.50</ele>
+            <time>2013-04-23T22:53:19.19Z</time>
+            <extensions>
+               <mlab:bearing>257.14</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303992" lon="-78.006652">
+            <ele>3220.10</ele>
+            <time>2013-04-23T22:53:21.21Z</time>
+            <extensions>
+               <mlab:bearing>244.94</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304047" lon="-78.006758">
+            <ele>3220.70</ele>
+            <time>2013-04-23T22:53:23.23Z</time>
+            <extensions>
+               <mlab:bearing>239.54</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304104" lon="-78.006859">
+            <ele>3220.90</ele>
+            <time>2013-04-23T22:53:25.25Z</time>
+            <extensions>
+               <mlab:bearing>239.91</mlab:bearing>
+               <mlab:speed>6.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304214" lon="-78.007073">
+            <ele>3221.60</ele>
+            <time>2013-04-23T22:53:29.29Z</time>
+            <extensions>
+               <mlab:bearing>246.09</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304257" lon="-78.007182">
+            <ele>3222.00</ele>
+            <time>2013-04-23T22:53:31.31Z</time>
+            <extensions>
+               <mlab:bearing>252.28</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304281" lon="-78.007293">
+            <ele>3222.70</ele>
+            <time>2013-04-23T22:53:33.33Z</time>
+            <extensions>
+               <mlab:bearing>263.82</mlab:bearing>
+               <mlab:speed>6.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304263" lon="-78.007508">
+            <ele>3223.80</ele>
+            <time>2013-04-23T22:53:37.37Z</time>
+            <extensions>
+               <mlab:bearing>285.25</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304236" lon="-78.007601">
+            <ele>3223.70</ele>
+            <time>2013-04-23T22:53:39.39Z</time>
+            <extensions>
+               <mlab:bearing>284.87</mlab:bearing>
+               <mlab:speed>5.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304216" lon="-78.007692">
+            <ele>3223.80</ele>
+            <time>2013-04-23T22:53:41.41Z</time>
+            <extensions>
+               <mlab:bearing>279.43</mlab:bearing>
+               <mlab:speed>5.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304214" lon="-78.007819">
+            <ele>3224.60</ele>
+            <time>2013-04-23T22:53:44.44Z</time>
+            <extensions>
+               <mlab:bearing>265.84</mlab:bearing>
+               <mlab:speed>4.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304233" lon="-78.007937">
+            <ele>3225.60</ele>
+            <time>2013-04-23T22:53:47.47Z</time>
+            <extensions>
+               <mlab:bearing>261.49</mlab:bearing>
+               <mlab:speed>4.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304233" lon="-78.008070">
+            <ele>3226.40</ele>
+            <time>2013-04-23T22:53:50.50Z</time>
+            <extensions>
+               <mlab:bearing>286.08</mlab:bearing>
+               <mlab:speed>5.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304183" lon="-78.008157">
+            <ele>3226.80</ele>
+            <time>2013-04-23T22:53:52.52Z</time>
+            <extensions>
+               <mlab:bearing>312.99</mlab:bearing>
+               <mlab:speed>5.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304111" lon="-78.008246">
+            <ele>3227.00</ele>
+            <time>2013-04-23T22:53:54.54Z</time>
+            <extensions>
+               <mlab:bearing>306.82</mlab:bearing>
+               <mlab:speed>6.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304060" lon="-78.008363">
+            <ele>3227.60</ele>
+            <time>2013-04-23T22:53:56.56Z</time>
+            <extensions>
+               <mlab:bearing>287.09</mlab:bearing>
+               <mlab:speed>7.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.304022" lon="-78.008500">
+            <ele>3228.00</ele>
+            <time>2013-04-23T22:53:58.58Z</time>
+            <extensions>
+               <mlab:bearing>287.59</mlab:bearing>
+               <mlab:speed>7.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303964" lon="-78.008635">
+            <ele>3228.50</ele>
+            <time>2013-04-23T22:54:00.00Z</time>
+            <extensions>
+               <mlab:bearing>295.88</mlab:bearing>
+               <mlab:speed>7.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303925" lon="-78.008749">
+            <ele>3229.00</ele>
+            <time>2013-04-23T22:54:02.02Z</time>
+            <extensions>
+               <mlab:bearing>282.72</mlab:bearing>
+               <mlab:speed>6.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303936" lon="-78.008874">
+            <ele>3229.70</ele>
+            <time>2013-04-23T22:54:05.05Z</time>
+            <extensions>
+               <mlab:bearing>258.42</mlab:bearing>
+               <mlab:speed>4.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303953" lon="-78.009003">
+            <ele>3230.20</ele>
+            <time>2013-04-23T22:54:08.08Z</time>
+            <extensions>
+               <mlab:bearing>264.49</mlab:bearing>
+               <mlab:speed>5.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303969" lon="-78.009125">
+            <ele>3230.60</ele>
+            <time>2013-04-23T22:54:10.10Z</time>
+            <extensions>
+               <mlab:bearing>263.36</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303986" lon="-78.009278">
+            <ele>3231.40</ele>
+            <time>2013-04-23T22:54:12.12Z</time>
+            <extensions>
+               <mlab:bearing>265.22</mlab:bearing>
+               <mlab:speed>8.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303996" lon="-78.009442">
+            <ele>3232.20</ele>
+            <time>2013-04-23T22:54:14.14Z</time>
+            <extensions>
+               <mlab:bearing>268.72</mlab:bearing>
+               <mlab:speed>8.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303990" lon="-78.009594">
+            <ele>3232.80</ele>
+            <time>2013-04-23T22:54:16.16Z</time>
+            <extensions>
+               <mlab:bearing>277.28</mlab:bearing>
+               <mlab:speed>8.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303960" lon="-78.009737">
+            <ele>3233.60</ele>
+            <time>2013-04-23T22:54:18.18Z</time>
+            <extensions>
+               <mlab:bearing>287.25</mlab:bearing>
+               <mlab:speed>7.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303875" lon="-78.009988">
+            <ele>3235.20</ele>
+            <time>2013-04-23T22:54:22.22Z</time>
+            <extensions>
+               <mlab:bearing>289.01</mlab:bearing>
+               <mlab:speed>6.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303843" lon="-78.010092">
+            <ele>3236.40</ele>
+            <time>2013-04-23T22:54:25.25Z</time>
+            <extensions>
+               <mlab:bearing>288.05</mlab:bearing>
+               <mlab:speed>2.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303812" lon="-78.010208">
+            <ele>3237.50</ele>
+            <time>2013-04-23T22:54:29.29Z</time>
+            <extensions>
+               <mlab:bearing>284.06</mlab:bearing>
+               <mlab:speed>4.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303787" lon="-78.010308">
+            <ele>3238.00</ele>
+            <time>2013-04-23T22:54:31.31Z</time>
+            <extensions>
+               <mlab:bearing>283.60</mlab:bearing>
+               <mlab:speed>5.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303765" lon="-78.010422">
+            <ele>3238.50</ele>
+            <time>2013-04-23T22:54:33.33Z</time>
+            <extensions>
+               <mlab:bearing>278.58</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303751" lon="-78.010543">
+            <ele>3239.00</ele>
+            <time>2013-04-23T22:54:35.35Z</time>
+            <extensions>
+               <mlab:bearing>275.86</mlab:bearing>
+               <mlab:speed>6.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303740" lon="-78.010670">
+            <ele>3239.60</ele>
+            <time>2013-04-23T22:54:37.37Z</time>
+            <extensions>
+               <mlab:bearing>274.59</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303722" lon="-78.010789">
+            <ele>3240.00</ele>
+            <time>2013-04-23T22:54:39.39Z</time>
+            <extensions>
+               <mlab:bearing>285.14</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303675" lon="-78.010871">
+            <ele>3240.00</ele>
+            <time>2013-04-23T22:54:41.41Z</time>
+            <extensions>
+               <mlab:bearing>315.17</mlab:bearing>
+               <mlab:speed>5.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303588" lon="-78.010916">
+            <ele>3240.30</ele>
+            <time>2013-04-23T22:54:43.43Z</time>
+            <extensions>
+               <mlab:bearing>342.01</mlab:bearing>
+               <mlab:speed>5.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303348" lon="-78.010988">
+            <ele>3240.90</ele>
+            <time>2013-04-23T22:54:47.47Z</time>
+            <extensions>
+               <mlab:bearing>341.01</mlab:bearing>
+               <mlab:speed>7.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303218" lon="-78.011037">
+            <ele>3241.40</ele>
+            <time>2013-04-23T22:54:49.49Z</time>
+            <extensions>
+               <mlab:bearing>338.08</mlab:bearing>
+               <mlab:speed>7.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.303096" lon="-78.011078">
+            <ele>3241.90</ele>
+            <time>2013-04-23T22:54:51.51Z</time>
+            <extensions>
+               <mlab:bearing>341.81</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302974" lon="-78.011116">
+            <ele>3242.30</ele>
+            <time>2013-04-23T22:54:53.53Z</time>
+            <extensions>
+               <mlab:bearing>343.21</mlab:bearing>
+               <mlab:speed>7.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302717" lon="-78.011217">
+            <ele>3243.30</ele>
+            <time>2013-04-23T22:54:57.57Z</time>
+            <extensions>
+               <mlab:bearing>338.22</mlab:bearing>
+               <mlab:speed>7.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302599" lon="-78.011251">
+            <ele>3243.60</ele>
+            <time>2013-04-23T22:54:59.59Z</time>
+            <extensions>
+               <mlab:bearing>346.64</mlab:bearing>
+               <mlab:speed>6.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302474" lon="-78.011279">
+            <ele>3244.30</ele>
+            <time>2013-04-23T22:55:01.01Z</time>
+            <extensions>
+               <mlab:bearing>346.59</mlab:bearing>
+               <mlab:speed>7.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302358" lon="-78.011308">
+            <ele>3244.90</ele>
+            <time>2013-04-23T22:55:03.03Z</time>
+            <extensions>
+               <mlab:bearing>345.80</mlab:bearing>
+               <mlab:speed>6.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302254" lon="-78.011327">
+            <ele>3245.80</ele>
+            <time>2013-04-23T22:55:06.06Z</time>
+            <extensions>
+               <mlab:bearing>355.17</mlab:bearing>
+               <mlab:speed>2.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302140" lon="-78.011282">
+            <ele>3246.80</ele>
+            <time>2013-04-23T22:55:10.10Z</time>
+            <extensions>
+               <mlab:bearing>40.79</mlab:bearing>
+               <mlab:speed>3.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302100" lon="-78.011195">
+            <ele>3247.30</ele>
+            <time>2013-04-23T22:55:13.13Z</time>
+            <extensions>
+               <mlab:bearing>86.91</mlab:bearing>
+               <mlab:speed>3.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302107" lon="-78.011092">
+            <ele>3248.30</ele>
+            <time>2013-04-23T22:55:16.16Z</time>
+            <extensions>
+               <mlab:bearing>96.07</mlab:bearing>
+               <mlab:speed>4.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302102" lon="-78.011000">
+            <ele>3249.00</ele>
+            <time>2013-04-23T22:55:18.18Z</time>
+            <extensions>
+               <mlab:bearing>78.61</mlab:bearing>
+               <mlab:speed>5.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.302052" lon="-78.010886">
+            <ele>3249.70</ele>
+            <time>2013-04-23T22:55:21.21Z</time>
+            <extensions>
+               <mlab:bearing>55.23</mlab:bearing>
+               <mlab:speed>4.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301996" lon="-78.010800">
+            <ele>3250.40</ele>
+            <time>2013-04-23T22:55:24.24Z</time>
+            <extensions>
+               <mlab:bearing>58.10</mlab:bearing>
+               <mlab:speed>3.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301920" lon="-78.010695">
+            <ele>3251.10</ele>
+            <time>2013-04-23T22:55:27.27Z</time>
+            <extensions>
+               <mlab:bearing>48.38</mlab:bearing>
+               <mlab:speed>5.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301858" lon="-78.010624">
+            <ele>3251.60</ele>
+            <time>2013-04-23T22:55:29.29Z</time>
+            <extensions>
+               <mlab:bearing>46.94</mlab:bearing>
+               <mlab:speed>4.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301786" lon="-78.010559">
+            <ele>3252.20</ele>
+            <time>2013-04-23T22:55:32.32Z</time>
+            <extensions>
+               <mlab:bearing>38.52</mlab:bearing>
+               <mlab:speed>3.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301710" lon="-78.010500">
+            <ele>3253.20</ele>
+            <time>2013-04-23T22:55:36.36Z</time>
+            <extensions>
+               <mlab:bearing>36.07</mlab:bearing>
+               <mlab:speed>2.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301623" lon="-78.010418">
+            <ele>3253.90</ele>
+            <time>2013-04-23T22:55:39.39Z</time>
+            <extensions>
+               <mlab:bearing>46.63</mlab:bearing>
+               <mlab:speed>4.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301565" lon="-78.010320">
+            <ele>3254.50</ele>
+            <time>2013-04-23T22:55:42.42Z</time>
+            <extensions>
+               <mlab:bearing>71.69</mlab:bearing>
+               <mlab:speed>3.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301552" lon="-78.010221">
+            <ele>3254.80</ele>
+            <time>2013-04-23T22:55:46.46Z</time>
+            <extensions>
+               <mlab:bearing>86.25</mlab:bearing>
+               <mlab:speed>3.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301548" lon="-78.010130">
+            <ele>3255.20</ele>
+            <time>2013-04-23T22:55:48.48Z</time>
+            <extensions>
+               <mlab:bearing>87.48</mlab:bearing>
+               <mlab:speed>5.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301535" lon="-78.010005">
+            <ele>3256.00</ele>
+            <time>2013-04-23T22:55:50.50Z</time>
+            <extensions>
+               <mlab:bearing>80.27</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301508" lon="-78.009897">
+            <ele>3257.20</ele>
+            <time>2013-04-23T22:55:52.52Z</time>
+            <extensions>
+               <mlab:bearing>72.63</mlab:bearing>
+               <mlab:speed>4.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301477" lon="-78.009782">
+            <ele>3260.10</ele>
+            <time>2013-04-23T22:55:58.58Z</time>
+            <extensions>
+               <mlab:bearing>72.21</mlab:bearing>
+               <mlab:speed>3.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301441" lon="-78.009670">
+            <ele>3261.30</ele>
+            <time>2013-04-23T22:56:01.01Z</time>
+            <extensions>
+               <mlab:bearing>73.87</mlab:bearing>
+               <mlab:speed>4.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301403" lon="-78.009549">
+            <ele>3262.40</ele>
+            <time>2013-04-23T22:56:04.04Z</time>
+            <extensions>
+               <mlab:bearing>71.37</mlab:bearing>
+               <mlab:speed>4.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301376" lon="-78.009424">
+            <ele>3263.70</ele>
+            <time>2013-04-23T22:56:07.07Z</time>
+            <extensions>
+               <mlab:bearing>85.24</mlab:bearing>
+               <mlab:speed>4.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301385" lon="-78.009316">
+            <ele>3264.90</ele>
+            <time>2013-04-23T22:56:10.10Z</time>
+            <extensions>
+               <mlab:bearing>102.58</mlab:bearing>
+               <mlab:speed>3.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301411" lon="-78.009222">
+            <ele>3266.70</ele>
+            <time>2013-04-23T22:56:16.16Z</time>
+            <extensions>
+               <mlab:bearing>97.62</mlab:bearing>
+               <mlab:speed>1.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301415" lon="-78.009112">
+            <ele>3267.70</ele>
+            <time>2013-04-23T22:56:21.21Z</time>
+            <extensions>
+               <mlab:bearing>95.15</mlab:bearing>
+               <mlab:speed>3.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301425" lon="-78.009014">
+            <ele>3268.10</ele>
+            <time>2013-04-23T22:56:23.23Z</time>
+            <extensions>
+               <mlab:bearing>95.22</mlab:bearing>
+               <mlab:speed>5.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301436" lon="-78.008905">
+            <ele>3268.50</ele>
+            <time>2013-04-23T22:56:25.25Z</time>
+            <extensions>
+               <mlab:bearing>95.28</mlab:bearing>
+               <mlab:speed>6.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301446" lon="-78.008695">
+            <ele>3269.40</ele>
+            <time>2013-04-23T22:56:30.30Z</time>
+            <extensions>
+               <mlab:bearing>90.38</mlab:bearing>
+               <mlab:speed>3.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301460" lon="-78.008583">
+            <ele>3272.20</ele>
+            <time>2013-04-23T22:56:39.39Z</time>
+            <extensions>
+               <mlab:bearing>95.34</mlab:bearing>
+               <mlab:speed>2.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301478" lon="-78.008475">
+            <ele>3272.50</ele>
+            <time>2013-04-23T22:56:42.42Z</time>
+            <extensions>
+               <mlab:bearing>100.08</mlab:bearing>
+               <mlab:speed>4.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301494" lon="-78.008356">
+            <ele>3272.90</ele>
+            <time>2013-04-23T22:56:45.45Z</time>
+            <extensions>
+               <mlab:bearing>96.10</mlab:bearing>
+               <mlab:speed>4.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301509" lon="-78.008245">
+            <ele>3273.40</ele>
+            <time>2013-04-23T22:56:56.56Z</time>
+            <extensions>
+               <mlab:bearing>90.29</mlab:bearing>
+               <mlab:speed>2.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301479" lon="-78.008153">
+            <ele>3273.80</ele>
+            <time>2013-04-23T22:56:59.59Z</time>
+            <extensions>
+               <mlab:bearing>52.15</mlab:bearing>
+               <mlab:speed>3.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301369" lon="-78.008105">
+            <ele>3274.00</ele>
+            <time>2013-04-23T22:57:02.02Z</time>
+            <extensions>
+               <mlab:bearing>5.42</mlab:bearing>
+               <mlab:speed>4.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301271" lon="-78.008099">
+            <ele>3274.10</ele>
+            <time>2013-04-23T22:57:04.04Z</time>
+            <extensions>
+               <mlab:bearing>1.40</mlab:bearing>
+               <mlab:speed>5.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301176" lon="-78.008094">
+            <ele>3274.40</ele>
+            <time>2013-04-23T22:57:06.06Z</time>
+            <extensions>
+               <mlab:bearing>2.34</mlab:bearing>
+               <mlab:speed>5.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.301055" lon="-78.008074">
+            <ele>3274.90</ele>
+            <time>2013-04-23T22:57:09.09Z</time>
+            <extensions>
+               <mlab:bearing>9.70</mlab:bearing>
+               <mlab:speed>3.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300952" lon="-78.008064">
+            <ele>3275.10</ele>
+            <time>2013-04-23T22:57:12.12Z</time>
+            <extensions>
+               <mlab:bearing>2.07</mlab:bearing>
+               <mlab:speed>4.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300843" lon="-78.008064">
+            <ele>3275.50</ele>
+            <time>2013-04-23T22:57:15.15Z</time>
+            <extensions>
+               <mlab:bearing>2.82</mlab:bearing>
+               <mlab:speed>3.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300727" lon="-78.008067">
+            <ele>3276.30</ele>
+            <time>2013-04-23T22:57:18.18Z</time>
+            <extensions>
+               <mlab:bearing>0.14</mlab:bearing>
+               <mlab:speed>4.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300636" lon="-78.008049">
+            <ele>3277.30</ele>
+            <time>2013-04-23T22:57:22.22Z</time>
+            <extensions>
+               <mlab:bearing>38.95</mlab:bearing>
+               <mlab:speed>1.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300604" lon="-78.007935">
+            <ele>3279.80</ele>
+            <time>2013-04-23T22:57:35.35Z</time>
+            <extensions>
+               <mlab:bearing>90.97</mlab:bearing>
+               <mlab:speed>2.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300608" lon="-78.007843">
+            <ele>3280.80</ele>
+            <time>2013-04-23T22:57:38.38Z</time>
+            <extensions>
+               <mlab:bearing>93.05</mlab:bearing>
+               <mlab:speed>4.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300614" lon="-78.007741">
+            <ele>3281.40</ele>
+            <time>2013-04-23T22:57:40.40Z</time>
+            <extensions>
+               <mlab:bearing>93.29</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300620" lon="-78.007636">
+            <ele>3281.70</ele>
+            <time>2013-04-23T22:57:42.42Z</time>
+            <extensions>
+               <mlab:bearing>93.61</mlab:bearing>
+               <mlab:speed>5.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300627" lon="-78.007516">
+            <ele>3282.20</ele>
+            <time>2013-04-23T22:57:44.44Z</time>
+            <extensions>
+               <mlab:bearing>93.63</mlab:bearing>
+               <mlab:speed>6.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300630" lon="-78.007390">
+            <ele>3283.00</ele>
+            <time>2013-04-23T22:57:46.46Z</time>
+            <extensions>
+               <mlab:bearing>88.55</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300610" lon="-78.007265">
+            <ele>3284.10</ele>
+            <time>2013-04-23T22:57:48.48Z</time>
+            <extensions>
+               <mlab:bearing>75.75</mlab:bearing>
+               <mlab:speed>6.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300575" lon="-78.007154">
+            <ele>3284.60</ele>
+            <time>2013-04-23T22:57:50.50Z</time>
+            <extensions>
+               <mlab:bearing>69.77</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300534" lon="-78.007044">
+            <ele>3284.70</ele>
+            <time>2013-04-23T22:57:52.52Z</time>
+            <extensions>
+               <mlab:bearing>67.90</mlab:bearing>
+               <mlab:speed>6.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300482" lon="-78.006938">
+            <ele>3285.00</ele>
+            <time>2013-04-23T22:57:54.54Z</time>
+            <extensions>
+               <mlab:bearing>60.86</mlab:bearing>
+               <mlab:speed>6.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300417" lon="-78.006833">
+            <ele>3285.60</ele>
+            <time>2013-04-23T22:57:56.56Z</time>
+            <extensions>
+               <mlab:bearing>53.03</mlab:bearing>
+               <mlab:speed>6.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300330" lon="-78.006738">
+            <ele>3286.60</ele>
+            <time>2013-04-23T22:57:58.58Z</time>
+            <extensions>
+               <mlab:bearing>44.45</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300240" lon="-78.006658">
+            <ele>3287.10</ele>
+            <time>2013-04-23T22:58:00.00Z</time>
+            <extensions>
+               <mlab:bearing>39.04</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300151" lon="-78.006582">
+            <ele>3288.30</ele>
+            <time>2013-04-23T22:58:03.03Z</time>
+            <extensions>
+               <mlab:bearing>42.14</mlab:bearing>
+               <mlab:speed>3.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.300069" lon="-78.006535">
+            <ele>3288.60</ele>
+            <time>2013-04-23T22:58:06.06Z</time>
+            <extensions>
+               <mlab:bearing>27.21</mlab:bearing>
+               <mlab:speed>3.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299988" lon="-78.006490">
+            <ele>3289.00</ele>
+            <time>2013-04-23T22:58:08.08Z</time>
+            <extensions>
+               <mlab:bearing>31.78</mlab:bearing>
+               <mlab:speed>5.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299892" lon="-78.006417">
+            <ele>3289.50</ele>
+            <time>2013-04-23T22:58:10.10Z</time>
+            <extensions>
+               <mlab:bearing>43.00</mlab:bearing>
+               <mlab:speed>6.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299822" lon="-78.006306">
+            <ele>3290.50</ele>
+            <time>2013-04-23T22:58:12.12Z</time>
+            <extensions>
+               <mlab:bearing>68.72</mlab:bearing>
+               <mlab:speed>6.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299773" lon="-78.006074">
+            <ele>3293.90</ele>
+            <time>2013-04-23T22:58:16.16Z</time>
+            <extensions>
+               <mlab:bearing>85.81</mlab:bearing>
+               <mlab:speed>5.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299760" lon="-78.005981">
+            <ele>3295.40</ele>
+            <time>2013-04-23T22:58:18.18Z</time>
+            <extensions>
+               <mlab:bearing>78.83</mlab:bearing>
+               <mlab:speed>4.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299726" lon="-78.005847">
+            <ele>3297.30</ele>
+            <time>2013-04-23T22:58:21.21Z</time>
+            <extensions>
+               <mlab:bearing>75.33</mlab:bearing>
+               <mlab:speed>5.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299702" lon="-78.005736">
+            <ele>3298.70</ele>
+            <time>2013-04-23T22:58:23.23Z</time>
+            <extensions>
+               <mlab:bearing>80.32</mlab:bearing>
+               <mlab:speed>6.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299699" lon="-78.005627">
+            <ele>3300.30</ele>
+            <time>2013-04-23T22:58:25.25Z</time>
+            <extensions>
+               <mlab:bearing>89.25</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299700" lon="-78.005512">
+            <ele>3301.90</ele>
+            <time>2013-04-23T22:58:27.27Z</time>
+            <extensions>
+               <mlab:bearing>85.91</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299679" lon="-78.005247">
+            <ele>3304.80</ele>
+            <time>2013-04-23T22:58:31.31Z</time>
+            <extensions>
+               <mlab:bearing>87.42</mlab:bearing>
+               <mlab:speed>6.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299693" lon="-78.005147">
+            <ele>3306.90</ele>
+            <time>2013-04-23T22:58:33.33Z</time>
+            <extensions>
+               <mlab:bearing>102.76</mlab:bearing>
+               <mlab:speed>5.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299746" lon="-78.005034">
+            <ele>3309.00</ele>
+            <time>2013-04-23T22:58:36.36Z</time>
+            <extensions>
+               <mlab:bearing>124.86</mlab:bearing>
+               <mlab:speed>4.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299831" lon="-78.004970">
+            <ele>3311.30</ele>
+            <time>2013-04-23T22:58:39.39Z</time>
+            <extensions>
+               <mlab:bearing>148.16</mlab:bearing>
+               <mlab:speed>3.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299902" lon="-78.004887">
+            <ele>3314.50</ele>
+            <time>2013-04-23T22:58:43.43Z</time>
+            <extensions>
+               <mlab:bearing>99.65</mlab:bearing>
+               <mlab:speed>2.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299823" lon="-78.004793">
+            <ele>3316.60</ele>
+            <time>2013-04-23T22:58:47.47Z</time>
+            <extensions>
+               <mlab:bearing>13.60</mlab:bearing>
+               <mlab:speed>4.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299684" lon="-78.004780">
+            <ele>3317.60</ele>
+            <time>2013-04-23T22:58:50.50Z</time>
+            <extensions>
+               <mlab:bearing>6.30</mlab:bearing>
+               <mlab:speed>5.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299574" lon="-78.004745">
+            <ele>3318.30</ele>
+            <time>2013-04-23T22:58:52.52Z</time>
+            <extensions>
+               <mlab:bearing>20.01</mlab:bearing>
+               <mlab:speed>6.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299352" lon="-78.004636">
+            <ele>3320.20</ele>
+            <time>2013-04-23T22:58:56.56Z</time>
+            <extensions>
+               <mlab:bearing>29.98</mlab:bearing>
+               <mlab:speed>6.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299242" lon="-78.004565">
+            <ele>3321.20</ele>
+            <time>2013-04-23T22:58:58.58Z</time>
+            <extensions>
+               <mlab:bearing>31.74</mlab:bearing>
+               <mlab:speed>7.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.299119" lon="-78.004490">
+            <ele>3322.30</ele>
+            <time>2013-04-23T22:59:00.00Z</time>
+            <extensions>
+               <mlab:bearing>29.96</mlab:bearing>
+               <mlab:speed>8.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.298982" lon="-78.004415">
+            <ele>3323.50</ele>
+            <time>2013-04-23T22:59:02.02Z</time>
+            <extensions>
+               <mlab:bearing>28.71</mlab:bearing>
+               <mlab:speed>8.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.298717" lon="-78.004270">
+            <ele>3325.90</ele>
+            <time>2013-04-23T22:59:06.06Z</time>
+            <extensions>
+               <mlab:bearing>27.66</mlab:bearing>
+               <mlab:speed>7.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.298593" lon="-78.004203">
+            <ele>3327.10</ele>
+            <time>2013-04-23T22:59:08.08Z</time>
+            <extensions>
+               <mlab:bearing>31.45</mlab:bearing>
+               <mlab:speed>7.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.298466" lon="-78.004115">
+            <ele>3328.20</ele>
+            <time>2013-04-23T22:59:10.10Z</time>
+            <extensions>
+               <mlab:bearing>39.12</mlab:bearing>
+               <mlab:speed>8.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.298348" lon="-78.004000">
+            <ele>3329.60</ele>
+            <time>2013-04-23T22:59:12.12Z</time>
+            <extensions>
+               <mlab:bearing>47.50</mlab:bearing>
+               <mlab:speed>8.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.298173" lon="-78.003806">
+            <ele>3332.30</ele>
+            <time>2013-04-23T22:59:15.15Z</time>
+            <extensions>
+               <mlab:bearing>48.20</mlab:bearing>
+               <mlab:speed>10.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.298110" lon="-78.003730">
+            <ele>3333.30</ele>
+            <time>2013-04-23T22:59:16.16Z</time>
+            <extensions>
+               <mlab:bearing>50.40</mlab:bearing>
+               <mlab:speed>10.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.298046" lon="-78.003652">
+            <ele>3334.10</ele>
+            <time>2013-04-23T22:59:17.17Z</time>
+            <extensions>
+               <mlab:bearing>49.48</mlab:bearing>
+               <mlab:speed>10.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297854" lon="-78.003429">
+            <ele>3336.20</ele>
+            <time>2013-04-23T22:59:20.20Z</time>
+            <extensions>
+               <mlab:bearing>47.43</mlab:bearing>
+               <mlab:speed>10.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297742" lon="-78.003304">
+            <ele>3337.10</ele>
+            <time>2013-04-23T22:59:22.22Z</time>
+            <extensions>
+               <mlab:bearing>49.49</mlab:bearing>
+               <mlab:speed>8.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297666" lon="-78.003215">
+            <ele>3338.10</ele>
+            <time>2013-04-23T22:59:24.24Z</time>
+            <extensions>
+               <mlab:bearing>49.14</mlab:bearing>
+               <mlab:speed>5.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297608" lon="-78.003144">
+            <ele>3339.00</ele>
+            <time>2013-04-23T22:59:26.26Z</time>
+            <extensions>
+               <mlab:bearing>50.71</mlab:bearing>
+               <mlab:speed>4.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297543" lon="-78.003071">
+            <ele>3340.30</ele>
+            <time>2013-04-23T22:59:29.29Z</time>
+            <extensions>
+               <mlab:bearing>40.25</mlab:bearing>
+               <mlab:speed>3.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297463" lon="-78.003019">
+            <ele>3341.20</ele>
+            <time>2013-04-23T22:59:32.32Z</time>
+            <extensions>
+               <mlab:bearing>35.08</mlab:bearing>
+               <mlab:speed>3.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297388" lon="-78.002948">
+            <ele>3342.10</ele>
+            <time>2013-04-23T22:59:35.35Z</time>
+            <extensions>
+               <mlab:bearing>47.80</mlab:bearing>
+               <mlab:speed>3.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297319" lon="-78.002872">
+            <ele>3343.00</ele>
+            <time>2013-04-23T22:59:38.38Z</time>
+            <extensions>
+               <mlab:bearing>40.48</mlab:bearing>
+               <mlab:speed>3.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297242" lon="-78.002822">
+            <ele>3344.20</ele>
+            <time>2013-04-23T22:59:42.42Z</time>
+            <extensions>
+               <mlab:bearing>17.87</mlab:bearing>
+               <mlab:speed>2.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297147" lon="-78.002753">
+            <ele>3345.40</ele>
+            <time>2013-04-23T22:59:46.46Z</time>
+            <extensions>
+               <mlab:bearing>44.86</mlab:bearing>
+               <mlab:speed>3.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297090" lon="-78.002677">
+            <ele>3346.50</ele>
+            <time>2013-04-23T22:59:48.48Z</time>
+            <extensions>
+               <mlab:bearing>56.95</mlab:bearing>
+               <mlab:speed>5.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.297032" lon="-78.002572">
+            <ele>3347.60</ele>
+            <time>2013-04-23T22:59:50.50Z</time>
+            <extensions>
+               <mlab:bearing>62.00</mlab:bearing>
+               <mlab:speed>6.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296978" lon="-78.002453">
+            <ele>3348.80</ele>
+            <time>2013-04-23T22:59:52.52Z</time>
+            <extensions>
+               <mlab:bearing>68.66</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296966" lon="-78.002212">
+            <ele>3351.30</ele>
+            <time>2013-04-23T22:59:56.56Z</time>
+            <extensions>
+               <mlab:bearing>104.16</mlab:bearing>
+               <mlab:speed>5.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296989" lon="-78.002119">
+            <ele>3352.30</ele>
+            <time>2013-04-23T22:59:58.58Z</time>
+            <extensions>
+               <mlab:bearing>101.37</mlab:bearing>
+               <mlab:speed>4.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296983" lon="-78.002005">
+            <ele>3353.40</ele>
+            <time>2013-04-23T23:00:01.01Z</time>
+            <extensions>
+               <mlab:bearing>68.01</mlab:bearing>
+               <mlab:speed>4.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296923" lon="-78.001937">
+            <ele>3354.30</ele>
+            <time>2013-04-23T23:00:03.03Z</time>
+            <extensions>
+               <mlab:bearing>32.68</mlab:bearing>
+               <mlab:speed>5.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296812" lon="-78.001879">
+            <ele>3355.00</ele>
+            <time>2013-04-23T23:00:05.05Z</time>
+            <extensions>
+               <mlab:bearing>21.36</mlab:bearing>
+               <mlab:speed>7.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296680" lon="-78.001814">
+            <ele>3355.70</ele>
+            <time>2013-04-23T23:00:07.07Z</time>
+            <extensions>
+               <mlab:bearing>27.40</mlab:bearing>
+               <mlab:speed>8.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296563" lon="-78.001742">
+            <ele>3357.00</ele>
+            <time>2013-04-23T23:00:09.09Z</time>
+            <extensions>
+               <mlab:bearing>33.91</mlab:bearing>
+               <mlab:speed>7.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296461" lon="-78.001686">
+            <ele>3358.40</ele>
+            <time>2013-04-23T23:00:11.11Z</time>
+            <extensions>
+               <mlab:bearing>24.92</mlab:bearing>
+               <mlab:speed>6.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296362" lon="-78.001655">
+            <ele>3359.40</ele>
+            <time>2013-04-23T23:00:13.13Z</time>
+            <extensions>
+               <mlab:bearing>11.99</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296255" lon="-78.001641">
+            <ele>3360.40</ele>
+            <time>2013-04-23T23:00:15.15Z</time>
+            <extensions>
+               <mlab:bearing>1.55</mlab:bearing>
+               <mlab:speed>6.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296136" lon="-78.001654">
+            <ele>3361.00</ele>
+            <time>2013-04-23T23:00:17.17Z</time>
+            <extensions>
+               <mlab:bearing>349.87</mlab:bearing>
+               <mlab:speed>6.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296007" lon="-78.001659">
+            <ele>3361.40</ele>
+            <time>2013-04-23T23:00:19.19Z</time>
+            <extensions>
+               <mlab:bearing>4.75</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295817" lon="-78.001664">
+            <ele>3362.20</ele>
+            <time>2013-04-23T23:00:24.24Z</time>
+            <extensions>
+               <mlab:bearing>312.54</mlab:bearing>
+               <mlab:speed>3.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295967" lon="-78.001778">
+            <ele>3363.90</ele>
+            <time>2013-04-23T23:00:29.29Z</time>
+            <extensions>
+               <mlab:bearing>176.31</mlab:bearing>
+               <mlab:speed>5.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296081" lon="-78.001787">
+            <ele>3365.40</ele>
+            <time>2013-04-23T23:00:31.31Z</time>
+            <extensions>
+               <mlab:bearing>196.27</mlab:bearing>
+               <mlab:speed>6.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296169" lon="-78.001846">
+            <ele>3367.80</ele>
+            <time>2013-04-23T23:00:33.33Z</time>
+            <extensions>
+               <mlab:bearing>234.64</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296194" lon="-78.001952">
+            <ele>3368.90</ele>
+            <time>2013-04-23T23:00:35.35Z</time>
+            <extensions>
+               <mlab:bearing>272.83</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296176" lon="-78.002088">
+            <ele>3370.10</ele>
+            <time>2013-04-23T23:00:37.37Z</time>
+            <extensions>
+               <mlab:bearing>281.01</mlab:bearing>
+               <mlab:speed>7.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296142" lon="-78.002216">
+            <ele>3371.00</ele>
+            <time>2013-04-23T23:00:39.39Z</time>
+            <extensions>
+               <mlab:bearing>290.02</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296098" lon="-78.002316">
+            <ele>3371.60</ele>
+            <time>2013-04-23T23:00:41.41Z</time>
+            <extensions>
+               <mlab:bearing>296.83</mlab:bearing>
+               <mlab:speed>5.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296057" lon="-78.002426">
+            <ele>3372.20</ele>
+            <time>2013-04-23T23:00:43.43Z</time>
+            <extensions>
+               <mlab:bearing>283.61</mlab:bearing>
+               <mlab:speed>6.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296044" lon="-78.002564">
+            <ele>3372.90</ele>
+            <time>2013-04-23T23:00:45.45Z</time>
+            <extensions>
+               <mlab:bearing>272.88</mlab:bearing>
+               <mlab:speed>7.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295944" lon="-78.002891">
+            <ele>3374.20</ele>
+            <time>2013-04-23T23:00:49.49Z</time>
+            <extensions>
+               <mlab:bearing>292.46</mlab:bearing>
+               <mlab:speed>9.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295906" lon="-78.003050">
+            <ele>3374.50</ele>
+            <time>2013-04-23T23:00:51.51Z</time>
+            <extensions>
+               <mlab:bearing>273.34</mlab:bearing>
+               <mlab:speed>8.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295926" lon="-78.003210">
+            <ele>3374.90</ele>
+            <time>2013-04-23T23:00:53.53Z</time>
+            <extensions>
+               <mlab:bearing>253.47</mlab:bearing>
+               <mlab:speed>9.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296001" lon="-78.003372">
+            <ele>3375.30</ele>
+            <time>2013-04-23T23:00:55.55Z</time>
+            <extensions>
+               <mlab:bearing>239.41</mlab:bearing>
+               <mlab:speed>9.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296112" lon="-78.003511">
+            <ele>3376.20</ele>
+            <time>2013-04-23T23:00:57.57Z</time>
+            <extensions>
+               <mlab:bearing>225.64</mlab:bearing>
+               <mlab:speed>9.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296241" lon="-78.003620">
+            <ele>3377.20</ele>
+            <time>2013-04-23T23:00:59.59Z</time>
+            <extensions>
+               <mlab:bearing>214.37</mlab:bearing>
+               <mlab:speed>9.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296391" lon="-78.003697">
+            <ele>3378.00</ele>
+            <time>2013-04-23T23:01:01.01Z</time>
+            <extensions>
+               <mlab:bearing>201.74</mlab:bearing>
+               <mlab:speed>9.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296698" lon="-78.003761">
+            <ele>3379.70</ele>
+            <time>2013-04-23T23:01:05.05Z</time>
+            <extensions>
+               <mlab:bearing>191.78</mlab:bearing>
+               <mlab:speed>7.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296784" lon="-78.003796">
+            <ele>3381.30</ele>
+            <time>2013-04-23T23:01:07.07Z</time>
+            <extensions>
+               <mlab:bearing>221.15</mlab:bearing>
+               <mlab:speed>4.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296764" lon="-78.003904">
+            <ele>3382.50</ele>
+            <time>2013-04-23T23:01:11.11Z</time>
+            <extensions>
+               <mlab:bearing>332.87</mlab:bearing>
+               <mlab:speed>3.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296657" lon="-78.003901">
+            <ele>3383.20</ele>
+            <time>2013-04-23T23:01:14.14Z</time>
+            <extensions>
+               <mlab:bearing>20.33</mlab:bearing>
+               <mlab:speed>4.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296537" lon="-78.003861">
+            <ele>3383.60</ele>
+            <time>2013-04-23T23:01:17.17Z</time>
+            <extensions>
+               <mlab:bearing>17.15</mlab:bearing>
+               <mlab:speed>4.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296403" lon="-78.003853">
+            <ele>3384.40</ele>
+            <time>2013-04-23T23:01:20.20Z</time>
+            <extensions>
+               <mlab:bearing>356.62</mlab:bearing>
+               <mlab:speed>5.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296294" lon="-78.003862">
+            <ele>3384.70</ele>
+            <time>2013-04-23T23:01:22.22Z</time>
+            <extensions>
+               <mlab:bearing>355.07</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.296023" lon="-78.003870">
+            <ele>3385.50</ele>
+            <time>2013-04-23T23:01:26.26Z</time>
+            <extensions>
+               <mlab:bearing>358.47</mlab:bearing>
+               <mlab:speed>7.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295722" lon="-78.003904">
+            <ele>3387.30</ele>
+            <time>2013-04-23T23:01:30.30Z</time>
+            <extensions>
+               <mlab:bearing>355.97</mlab:bearing>
+               <mlab:speed>8.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295583" lon="-78.003885">
+            <ele>3388.10</ele>
+            <time>2013-04-23T23:01:32.32Z</time>
+            <extensions>
+               <mlab:bearing>15.64</mlab:bearing>
+               <mlab:speed>7.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295481" lon="-78.003820">
+            <ele>3389.00</ele>
+            <time>2013-04-23T23:01:34.34Z</time>
+            <extensions>
+               <mlab:bearing>46.34</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295406" lon="-78.003732">
+            <ele>3389.80</ele>
+            <time>2013-04-23T23:01:36.36Z</time>
+            <extensions>
+               <mlab:bearing>53.57</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295353" lon="-78.003635">
+            <ele>3390.70</ele>
+            <time>2013-04-23T23:01:38.38Z</time>
+            <extensions>
+               <mlab:bearing>68.77</mlab:bearing>
+               <mlab:speed>5.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295326" lon="-78.003535">
+            <ele>3391.60</ele>
+            <time>2013-04-23T23:01:40.40Z</time>
+            <extensions>
+               <mlab:bearing>79.99</mlab:bearing>
+               <mlab:speed>5.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295310" lon="-78.003426">
+            <ele>3392.70</ele>
+            <time>2013-04-23T23:01:42.42Z</time>
+            <extensions>
+               <mlab:bearing>81.96</mlab:bearing>
+               <mlab:speed>6.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295292" lon="-78.003177">
+            <ele>3395.20</ele>
+            <time>2013-04-23T23:01:46.46Z</time>
+            <extensions>
+               <mlab:bearing>87.14</mlab:bearing>
+               <mlab:speed>7.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295280" lon="-78.003035">
+            <ele>3396.20</ele>
+            <time>2013-04-23T23:01:48.48Z</time>
+            <extensions>
+               <mlab:bearing>82.72</mlab:bearing>
+               <mlab:speed>7.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295184" lon="-78.002761">
+            <ele>3398.90</ele>
+            <time>2013-04-23T23:01:52.52Z</time>
+            <extensions>
+               <mlab:bearing>66.43</mlab:bearing>
+               <mlab:speed>7.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295140" lon="-78.002623">
+            <ele>3400.20</ele>
+            <time>2013-04-23T23:01:54.54Z</time>
+            <extensions>
+               <mlab:bearing>75.60</mlab:bearing>
+               <mlab:speed>7.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.295049" lon="-78.002377">
+            <ele>3403.80</ele>
+            <time>2013-04-23T23:01:58.58Z</time>
+            <extensions>
+               <mlab:bearing>49.58</mlab:bearing>
+               <mlab:speed>6.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294836" lon="-78.002222">
+            <ele>3405.60</ele>
+            <time>2013-04-23T23:02:02.02Z</time>
+            <extensions>
+               <mlab:bearing>30.65</mlab:bearing>
+               <mlab:speed>7.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294713" lon="-78.002132">
+            <ele>3406.40</ele>
+            <time>2013-04-23T23:02:04.04Z</time>
+            <extensions>
+               <mlab:bearing>37.47</mlab:bearing>
+               <mlab:speed>8.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294589" lon="-78.002051">
+            <ele>3407.20</ele>
+            <time>2013-04-23T23:02:06.06Z</time>
+            <extensions>
+               <mlab:bearing>28.66</mlab:bearing>
+               <mlab:speed>8.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294466" lon="-78.001955">
+            <ele>3408.00</ele>
+            <time>2013-04-23T23:02:08.08Z</time>
+            <extensions>
+               <mlab:bearing>42.92</mlab:bearing>
+               <mlab:speed>8.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294348" lon="-78.001835">
+            <ele>3409.50</ele>
+            <time>2013-04-23T23:02:10.10Z</time>
+            <extensions>
+               <mlab:bearing>40.49</mlab:bearing>
+               <mlab:speed>9.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294212" lon="-78.001729">
+            <ele>3411.30</ele>
+            <time>2013-04-23T23:02:12.12Z</time>
+            <extensions>
+               <mlab:bearing>31.12</mlab:bearing>
+               <mlab:speed>9.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294057" lon="-78.001649">
+            <ele>3412.60</ele>
+            <time>2013-04-23T23:02:14.14Z</time>
+            <extensions>
+               <mlab:bearing>20.02</mlab:bearing>
+               <mlab:speed>9.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293787" lon="-78.001559">
+            <ele>3414.10</ele>
+            <time>2013-04-23T23:02:17.17Z</time>
+            <extensions>
+               <mlab:bearing>19.88</mlab:bearing>
+               <mlab:speed>10.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293458" lon="-78.001410">
+            <ele>3416.30</ele>
+            <time>2013-04-23T23:02:21.21Z</time>
+            <extensions>
+               <mlab:bearing>23.86</mlab:bearing>
+               <mlab:speed>8.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293332" lon="-78.001358">
+            <ele>3417.30</ele>
+            <time>2013-04-23T23:02:23.23Z</time>
+            <extensions>
+               <mlab:bearing>18.78</mlab:bearing>
+               <mlab:speed>7.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293229" lon="-78.001326">
+            <ele>3418.30</ele>
+            <time>2013-04-23T23:02:25.25Z</time>
+            <extensions>
+               <mlab:bearing>17.76</mlab:bearing>
+               <mlab:speed>5.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293154" lon="-78.001158">
+            <ele>3420.40</ele>
+            <time>2013-04-23T23:02:29.29Z</time>
+            <extensions>
+               <mlab:bearing>112.75</mlab:bearing>
+               <mlab:speed>5.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293238" lon="-78.001079">
+            <ele>3421.40</ele>
+            <time>2013-04-23T23:02:31.31Z</time>
+            <extensions>
+               <mlab:bearing>160.49</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293360" lon="-78.001029">
+            <ele>3422.10</ele>
+            <time>2013-04-23T23:02:33.33Z</time>
+            <extensions>
+               <mlab:bearing>162.33</mlab:bearing>
+               <mlab:speed>7.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293489" lon="-78.000961">
+            <ele>3422.70</ele>
+            <time>2013-04-23T23:02:35.35Z</time>
+            <extensions>
+               <mlab:bearing>150.75</mlab:bearing>
+               <mlab:speed>8.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293628" lon="-78.000873">
+            <ele>3423.60</ele>
+            <time>2013-04-23T23:02:37.37Z</time>
+            <extensions>
+               <mlab:bearing>146.87</mlab:bearing>
+               <mlab:speed>9.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293758" lon="-78.000782">
+            <ele>3424.90</ele>
+            <time>2013-04-23T23:02:39.39Z</time>
+            <extensions>
+               <mlab:bearing>140.22</mlab:bearing>
+               <mlab:speed>8.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293845" lon="-78.000678">
+            <ele>3426.70</ele>
+            <time>2013-04-23T23:02:41.41Z</time>
+            <extensions>
+               <mlab:bearing>114.62</mlab:bearing>
+               <mlab:speed>7.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293855" lon="-78.000567">
+            <ele>3428.40</ele>
+            <time>2013-04-23T23:02:43.43Z</time>
+            <extensions>
+               <mlab:bearing>76.03</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293804" lon="-78.000465">
+            <ele>3429.50</ele>
+            <time>2013-04-23T23:02:45.45Z</time>
+            <extensions>
+               <mlab:bearing>53.65</mlab:bearing>
+               <mlab:speed>6.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293712" lon="-78.000376">
+            <ele>3430.70</ele>
+            <time>2013-04-23T23:02:47.47Z</time>
+            <extensions>
+               <mlab:bearing>38.60</mlab:bearing>
+               <mlab:speed>6.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293636" lon="-78.000283">
+            <ele>3431.30</ele>
+            <time>2013-04-23T23:02:49.49Z</time>
+            <extensions>
+               <mlab:bearing>66.21</mlab:bearing>
+               <mlab:speed>6.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293635" lon="-78.000155">
+            <ele>3432.60</ele>
+            <time>2013-04-23T23:02:51.51Z</time>
+            <extensions>
+               <mlab:bearing>104.66</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293707" lon="-78.000036">
+            <ele>3433.60</ele>
+            <time>2013-04-23T23:02:53.53Z</time>
+            <extensions>
+               <mlab:bearing>133.68</mlab:bearing>
+               <mlab:speed>7.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293818" lon="-77.999938">
+            <ele>3435.20</ele>
+            <time>2013-04-23T23:02:55.55Z</time>
+            <extensions>
+               <mlab:bearing>141.16</mlab:bearing>
+               <mlab:speed>8.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293939" lon="-77.999848">
+            <ele>3437.60</ele>
+            <time>2013-04-23T23:02:57.57Z</time>
+            <extensions>
+               <mlab:bearing>140.88</mlab:bearing>
+               <mlab:speed>8.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294049" lon="-77.999757">
+            <ele>3440.10</ele>
+            <time>2013-04-23T23:02:59.59Z</time>
+            <extensions>
+               <mlab:bearing>136.07</mlab:bearing>
+               <mlab:speed>7.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294132" lon="-77.999651">
+            <ele>3442.50</ele>
+            <time>2013-04-23T23:03:01.01Z</time>
+            <extensions>
+               <mlab:bearing>116.15</mlab:bearing>
+               <mlab:speed>7.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294157" lon="-77.999525">
+            <ele>3444.40</ele>
+            <time>2013-04-23T23:03:03.03Z</time>
+            <extensions>
+               <mlab:bearing>85.26</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294115" lon="-77.999398">
+            <ele>3446.20</ele>
+            <time>2013-04-23T23:03:05.05Z</time>
+            <extensions>
+               <mlab:bearing>58.58</mlab:bearing>
+               <mlab:speed>7.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.294020" lon="-77.999287">
+            <ele>3448.10</ele>
+            <time>2013-04-23T23:03:07.07Z</time>
+            <extensions>
+               <mlab:bearing>43.11</mlab:bearing>
+               <mlab:speed>8.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293904" lon="-77.999181">
+            <ele>3449.40</ele>
+            <time>2013-04-23T23:03:09.09Z</time>
+            <extensions>
+               <mlab:bearing>42.98</mlab:bearing>
+               <mlab:speed>8.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293784" lon="-77.999061">
+            <ele>3450.60</ele>
+            <time>2013-04-23T23:03:11.11Z</time>
+            <extensions>
+               <mlab:bearing>46.80</mlab:bearing>
+               <mlab:speed>9.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293653" lon="-77.998934">
+            <ele>3451.90</ele>
+            <time>2013-04-23T23:03:13.13Z</time>
+            <extensions>
+               <mlab:bearing>42.16</mlab:bearing>
+               <mlab:speed>10.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293580" lon="-77.998870">
+            <ele>3452.50</ele>
+            <time>2013-04-23T23:03:14.14Z</time>
+            <extensions>
+               <mlab:bearing>40.15</mlab:bearing>
+               <mlab:speed>10.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293500" lon="-77.998808">
+            <ele>3453.10</ele>
+            <time>2013-04-23T23:03:15.15Z</time>
+            <extensions>
+               <mlab:bearing>37.15</mlab:bearing>
+               <mlab:speed>11.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293416" lon="-77.998747">
+            <ele>3453.70</ele>
+            <time>2013-04-23T23:03:16.16Z</time>
+            <extensions>
+               <mlab:bearing>34.43</mlab:bearing>
+               <mlab:speed>11.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293327" lon="-77.998689">
+            <ele>3454.30</ele>
+            <time>2013-04-23T23:03:17.17Z</time>
+            <extensions>
+               <mlab:bearing>33.03</mlab:bearing>
+               <mlab:speed>11.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293238" lon="-77.998632">
+            <ele>3454.90</ele>
+            <time>2013-04-23T23:03:18.18Z</time>
+            <extensions>
+               <mlab:bearing>32.26</mlab:bearing>
+               <mlab:speed>11.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293151" lon="-77.998578">
+            <ele>3455.50</ele>
+            <time>2013-04-23T23:03:19.19Z</time>
+            <extensions>
+               <mlab:bearing>31.65</mlab:bearing>
+               <mlab:speed>11.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.293065" lon="-77.998526">
+            <ele>3456.00</ele>
+            <time>2013-04-23T23:03:20.20Z</time>
+            <extensions>
+               <mlab:bearing>30.54</mlab:bearing>
+               <mlab:speed>11.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292976" lon="-77.998478">
+            <ele>3456.50</ele>
+            <time>2013-04-23T23:03:21.21Z</time>
+            <extensions>
+               <mlab:bearing>27.47</mlab:bearing>
+               <mlab:speed>11.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292888" lon="-77.998436">
+            <ele>3457.00</ele>
+            <time>2013-04-23T23:03:22.22Z</time>
+            <extensions>
+               <mlab:bearing>23.34</mlab:bearing>
+               <mlab:speed>10.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292803" lon="-77.998405">
+            <ele>3457.40</ele>
+            <time>2013-04-23T23:03:23.23Z</time>
+            <extensions>
+               <mlab:bearing>18.92</mlab:bearing>
+               <mlab:speed>10.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292645" lon="-77.998359">
+            <ele>3457.70</ele>
+            <time>2013-04-23T23:03:25.25Z</time>
+            <extensions>
+               <mlab:bearing>14.64</mlab:bearing>
+               <mlab:speed>8.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292494" lon="-77.998331">
+            <ele>3457.90</ele>
+            <time>2013-04-23T23:03:27.27Z</time>
+            <extensions>
+               <mlab:bearing>9.19</mlab:bearing>
+               <mlab:speed>8.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292358" lon="-77.998306">
+            <ele>3458.30</ele>
+            <time>2013-04-23T23:03:29.29Z</time>
+            <extensions>
+               <mlab:bearing>13.60</mlab:bearing>
+               <mlab:speed>7.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292272" lon="-77.998256">
+            <ele>3458.30</ele>
+            <time>2013-04-23T23:03:31.31Z</time>
+            <extensions>
+               <mlab:bearing>44.89</mlab:bearing>
+               <mlab:speed>5.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292277" lon="-77.998158">
+            <ele>3459.50</ele>
+            <time>2013-04-23T23:03:34.34Z</time>
+            <extensions>
+               <mlab:bearing>129.46</mlab:bearing>
+               <mlab:speed>2.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292344" lon="-77.998095">
+            <ele>3460.60</ele>
+            <time>2013-04-23T23:03:37.37Z</time>
+            <extensions>
+               <mlab:bearing>142.03</mlab:bearing>
+               <mlab:speed>4.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292433" lon="-77.998022">
+            <ele>3461.70</ele>
+            <time>2013-04-23T23:03:39.39Z</time>
+            <extensions>
+               <mlab:bearing>141.95</mlab:bearing>
+               <mlab:speed>6.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292553" lon="-77.997946">
+            <ele>3462.60</ele>
+            <time>2013-04-23T23:03:41.41Z</time>
+            <extensions>
+               <mlab:bearing>153.58</mlab:bearing>
+               <mlab:speed>7.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292688" lon="-77.997863">
+            <ele>3463.60</ele>
+            <time>2013-04-23T23:03:43.43Z</time>
+            <extensions>
+               <mlab:bearing>139.50</mlab:bearing>
+               <mlab:speed>8.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292787" lon="-77.997722">
+            <ele>3464.70</ele>
+            <time>2013-04-23T23:03:45.45Z</time>
+            <extensions>
+               <mlab:bearing>110.43</mlab:bearing>
+               <mlab:speed>9.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292813" lon="-77.997541">
+            <ele>3466.10</ele>
+            <time>2013-04-23T23:03:47.47Z</time>
+            <extensions>
+               <mlab:bearing>84.65</mlab:bearing>
+               <mlab:speed>10.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292799" lon="-77.997446">
+            <ele>3466.70</ele>
+            <time>2013-04-23T23:03:48.48Z</time>
+            <extensions>
+               <mlab:bearing>78.28</mlab:bearing>
+               <mlab:speed>10.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292775" lon="-77.997352">
+            <ele>3467.40</ele>
+            <time>2013-04-23T23:03:49.49Z</time>
+            <extensions>
+               <mlab:bearing>73.15</mlab:bearing>
+               <mlab:speed>10.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292742" lon="-77.997257">
+            <ele>3468.30</ele>
+            <time>2013-04-23T23:03:50.50Z</time>
+            <extensions>
+               <mlab:bearing>68.59</mlab:bearing>
+               <mlab:speed>10.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292699" lon="-77.997166">
+            <ele>3468.90</ele>
+            <time>2013-04-23T23:03:51.51Z</time>
+            <extensions>
+               <mlab:bearing>61.03</mlab:bearing>
+               <mlab:speed>11.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292645" lon="-77.997086">
+            <ele>3469.40</ele>
+            <time>2013-04-23T23:03:52.52Z</time>
+            <extensions>
+               <mlab:bearing>51.77</mlab:bearing>
+               <mlab:speed>10.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292579" lon="-77.997017">
+            <ele>3470.00</ele>
+            <time>2013-04-23T23:03:53.53Z</time>
+            <extensions>
+               <mlab:bearing>42.33</mlab:bearing>
+               <mlab:speed>10.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292501" lon="-77.996960">
+            <ele>3470.50</ele>
+            <time>2013-04-23T23:03:54.54Z</time>
+            <extensions>
+               <mlab:bearing>32.55</mlab:bearing>
+               <mlab:speed>10.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292412" lon="-77.996913">
+            <ele>3471.00</ele>
+            <time>2013-04-23T23:03:55.55Z</time>
+            <extensions>
+               <mlab:bearing>24.88</mlab:bearing>
+               <mlab:speed>11.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292315" lon="-77.996878">
+            <ele>3471.30</ele>
+            <time>2013-04-23T23:03:56.56Z</time>
+            <extensions>
+               <mlab:bearing>17.51</mlab:bearing>
+               <mlab:speed>11.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292212" lon="-77.996853">
+            <ele>3471.60</ele>
+            <time>2013-04-23T23:03:57.57Z</time>
+            <extensions>
+               <mlab:bearing>11.56</mlab:bearing>
+               <mlab:speed>11.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.292105" lon="-77.996835">
+            <ele>3472.00</ele>
+            <time>2013-04-23T23:03:58.58Z</time>
+            <extensions>
+               <mlab:bearing>8.67</mlab:bearing>
+               <mlab:speed>11.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.291999" lon="-77.996821">
+            <ele>3472.40</ele>
+            <time>2013-04-23T23:03:59.59Z</time>
+            <extensions>
+               <mlab:bearing>6.83</mlab:bearing>
+               <mlab:speed>11.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.291899" lon="-77.996808">
+            <ele>3472.90</ele>
+            <time>2013-04-23T23:04:00.00Z</time>
+            <extensions>
+               <mlab:bearing>7.82</mlab:bearing>
+               <mlab:speed>11.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.291808" lon="-77.996791">
+            <ele>3473.30</ele>
+            <time>2013-04-23T23:04:01.01Z</time>
+            <extensions>
+               <mlab:bearing>11.46</mlab:bearing>
+               <mlab:speed>10.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.291642" lon="-77.996741">
+            <ele>3474.10</ele>
+            <time>2013-04-23T23:04:03.03Z</time>
+            <extensions>
+               <mlab:bearing>19.81</mlab:bearing>
+               <mlab:speed>9.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.291473" lon="-77.996705">
+            <ele>3474.90</ele>
+            <time>2013-04-23T23:04:05.05Z</time>
+            <extensions>
+               <mlab:bearing>2.42</mlab:bearing>
+               <mlab:speed>9.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.291343" lon="-77.996714">
+            <ele>3476.00</ele>
+            <time>2013-04-23T23:04:07.07Z</time>
+            <extensions>
+               <mlab:bearing>350.17</mlab:bearing>
+               <mlab:speed>5.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.291249" lon="-77.996731">
+            <ele>3478.70</ele>
+            <time>2013-04-23T23:05:07.07Z</time>
+            <extensions>
+               <mlab:bearing>354.71</mlab:bearing>
+               <mlab:speed>3.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.291127" lon="-77.996736">
+            <ele>3479.90</ele>
+            <time>2013-04-23T23:05:10.10Z</time>
+            <extensions>
+               <mlab:bearing>355.11</mlab:bearing>
+               <mlab:speed>4.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290995" lon="-77.996750">
+            <ele>3480.30</ele>
+            <time>2013-04-23T23:05:13.13Z</time>
+            <extensions>
+               <mlab:bearing>350.15</mlab:bearing>
+               <mlab:speed>5.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290873" lon="-77.996781">
+            <ele>3480.50</ele>
+            <time>2013-04-23T23:05:15.15Z</time>
+            <extensions>
+               <mlab:bearing>345.60</mlab:bearing>
+               <mlab:speed>7.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290724" lon="-77.996816">
+            <ele>3480.80</ele>
+            <time>2013-04-23T23:05:17.17Z</time>
+            <extensions>
+               <mlab:bearing>347.47</mlab:bearing>
+               <mlab:speed>8.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290570" lon="-77.996845">
+            <ele>3481.00</ele>
+            <time>2013-04-23T23:05:19.19Z</time>
+            <extensions>
+               <mlab:bearing>352.31</mlab:bearing>
+               <mlab:speed>8.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290441" lon="-77.996856">
+            <ele>3481.30</ele>
+            <time>2013-04-23T23:05:21.21Z</time>
+            <extensions>
+               <mlab:bearing>356.84</mlab:bearing>
+               <mlab:speed>6.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290345" lon="-77.996864">
+            <ele>3481.40</ele>
+            <time>2013-04-23T23:05:23.23Z</time>
+            <extensions>
+               <mlab:bearing>352.78</mlab:bearing>
+               <mlab:speed>5.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290254" lon="-77.996879">
+            <ele>3481.70</ele>
+            <time>2013-04-23T23:05:25.25Z</time>
+            <extensions>
+               <mlab:bearing>353.03</mlab:bearing>
+               <mlab:speed>5.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290157" lon="-77.996860">
+            <ele>3482.10</ele>
+            <time>2013-04-23T23:05:27.27Z</time>
+            <extensions>
+               <mlab:bearing>24.47</mlab:bearing>
+               <mlab:speed>5.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290086" lon="-77.996784">
+            <ele>3482.50</ele>
+            <time>2013-04-23T23:05:29.29Z</time>
+            <extensions>
+               <mlab:bearing>65.60</mlab:bearing>
+               <mlab:speed>5.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.290059" lon="-77.996687">
+            <ele>3483.20</ele>
+            <time>2013-04-23T23:05:31.31Z</time>
+            <extensions>
+               <mlab:bearing>75.22</mlab:bearing>
+               <mlab:speed>5.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289985" lon="-77.996581">
+            <ele>3484.10</ele>
+            <time>2013-04-23T23:05:34.34Z</time>
+            <extensions>
+               <mlab:bearing>34.10</mlab:bearing>
+               <mlab:speed>5.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289878" lon="-77.996531">
+            <ele>3484.60</ele>
+            <time>2013-04-23T23:05:37.37Z</time>
+            <extensions>
+               <mlab:bearing>11.53</mlab:bearing>
+               <mlab:speed>3.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289780" lon="-77.996541">
+            <ele>3485.40</ele>
+            <time>2013-04-23T23:05:41.41Z</time>
+            <extensions>
+               <mlab:bearing>334.20</mlab:bearing>
+               <mlab:speed>0.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289684" lon="-77.996597">
+            <ele>3487.10</ele>
+            <time>2013-04-23T23:05:55.55Z</time>
+            <extensions>
+               <mlab:bearing>328.92</mlab:bearing>
+               <mlab:speed>2.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289594" lon="-77.996633">
+            <ele>3488.10</ele>
+            <time>2013-04-23T23:05:58.58Z</time>
+            <extensions>
+               <mlab:bearing>349.42</mlab:bearing>
+               <mlab:speed>3.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289501" lon="-77.996648">
+            <ele>3489.30</ele>
+            <time>2013-04-23T23:06:14.14Z</time>
+            <extensions>
+               <mlab:bearing>349.44</mlab:bearing>
+               <mlab:speed>2.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289408" lon="-77.996725">
+            <ele>3489.10</ele>
+            <time>2013-04-23T23:06:31.31Z</time>
+            <extensions>
+               <mlab:bearing>306.35</mlab:bearing>
+               <mlab:speed>4.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289364" lon="-77.996807">
+            <ele>3488.80</ele>
+            <time>2013-04-23T23:06:33.33Z</time>
+            <extensions>
+               <mlab:bearing>292.27</mlab:bearing>
+               <mlab:speed>5.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289356" lon="-77.996938">
+            <ele>3488.40</ele>
+            <time>2013-04-23T23:06:36.36Z</time>
+            <extensions>
+               <mlab:bearing>255.54</mlab:bearing>
+               <mlab:speed>4.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289402" lon="-77.997038">
+            <ele>3488.10</ele>
+            <time>2013-04-23T23:06:39.39Z</time>
+            <extensions>
+               <mlab:bearing>241.67</mlab:bearing>
+               <mlab:speed>3.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289397" lon="-77.997147">
+            <ele>3487.60</ele>
+            <time>2013-04-23T23:06:43.43Z</time>
+            <extensions>
+               <mlab:bearing>311.14</mlab:bearing>
+               <mlab:speed>3.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289306" lon="-77.997154">
+            <ele>3487.00</ele>
+            <time>2013-04-23T23:06:46.46Z</time>
+            <extensions>
+               <mlab:bearing>29.48</mlab:bearing>
+               <mlab:speed>3.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289217" lon="-77.997067">
+            <ele>3486.20</ele>
+            <time>2013-04-23T23:06:49.49Z</time>
+            <extensions>
+               <mlab:bearing>55.63</mlab:bearing>
+               <mlab:speed>5.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289164" lon="-77.996967">
+            <ele>3485.60</ele>
+            <time>2013-04-23T23:06:51.51Z</time>
+            <extensions>
+               <mlab:bearing>63.19</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289111" lon="-77.996854">
+            <ele>3484.90</ele>
+            <time>2013-04-23T23:06:53.53Z</time>
+            <extensions>
+               <mlab:bearing>65.97</mlab:bearing>
+               <mlab:speed>6.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289065" lon="-77.996738">
+            <ele>3484.30</ele>
+            <time>2013-04-23T23:06:55.55Z</time>
+            <extensions>
+               <mlab:bearing>70.40</mlab:bearing>
+               <mlab:speed>6.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.289031" lon="-77.996639">
+            <ele>3483.60</ele>
+            <time>2013-04-23T23:06:57.57Z</time>
+            <extensions>
+               <mlab:bearing>71.04</mlab:bearing>
+               <mlab:speed>5.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288971" lon="-77.996526">
+            <ele>3483.20</ele>
+            <time>2013-04-23T23:07:00.00Z</time>
+            <extensions>
+               <mlab:bearing>54.06</mlab:bearing>
+               <mlab:speed>4.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288897" lon="-77.996453">
+            <ele>3482.80</ele>
+            <time>2013-04-23T23:07:02.02Z</time>
+            <extensions>
+               <mlab:bearing>43.38</mlab:bearing>
+               <mlab:speed>6.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288808" lon="-77.996373">
+            <ele>3482.20</ele>
+            <time>2013-04-23T23:07:04.04Z</time>
+            <extensions>
+               <mlab:bearing>39.15</mlab:bearing>
+               <mlab:speed>6.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288710" lon="-77.996313">
+            <ele>3481.50</ele>
+            <time>2013-04-23T23:07:06.06Z</time>
+            <extensions>
+               <mlab:bearing>28.55</mlab:bearing>
+               <mlab:speed>6.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288608" lon="-77.996264">
+            <ele>3480.60</ele>
+            <time>2013-04-23T23:07:08.08Z</time>
+            <extensions>
+               <mlab:bearing>23.36</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288482" lon="-77.996231">
+            <ele>3479.80</ele>
+            <time>2013-04-23T23:07:10.10Z</time>
+            <extensions>
+               <mlab:bearing>13.48</mlab:bearing>
+               <mlab:speed>7.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288348" lon="-77.996215">
+            <ele>3478.70</ele>
+            <time>2013-04-23T23:07:12.12Z</time>
+            <extensions>
+               <mlab:bearing>0.97</mlab:bearing>
+               <mlab:speed>7.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288220" lon="-77.996230">
+            <ele>3477.80</ele>
+            <time>2013-04-23T23:07:14.14Z</time>
+            <extensions>
+               <mlab:bearing>351.60</mlab:bearing>
+               <mlab:speed>6.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288114" lon="-77.996248">
+            <ele>3477.00</ele>
+            <time>2013-04-23T23:07:16.16Z</time>
+            <extensions>
+               <mlab:bearing>351.04</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.288019" lon="-77.996261">
+            <ele>3476.50</ele>
+            <time>2013-04-23T23:07:18.18Z</time>
+            <extensions>
+               <mlab:bearing>355.16</mlab:bearing>
+               <mlab:speed>5.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287920" lon="-77.996261">
+            <ele>3475.70</ele>
+            <time>2013-04-23T23:07:20.20Z</time>
+            <extensions>
+               <mlab:bearing>4.36</mlab:bearing>
+               <mlab:speed>5.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287811" lon="-77.996234">
+            <ele>3474.60</ele>
+            <time>2013-04-23T23:07:22.22Z</time>
+            <extensions>
+               <mlab:bearing>18.27</mlab:bearing>
+               <mlab:speed>6.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287711" lon="-77.996187">
+            <ele>3473.80</ele>
+            <time>2013-04-23T23:07:24.24Z</time>
+            <extensions>
+               <mlab:bearing>30.30</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287624" lon="-77.996137">
+            <ele>3472.90</ele>
+            <time>2013-04-23T23:07:26.26Z</time>
+            <extensions>
+               <mlab:bearing>27.13</mlab:bearing>
+               <mlab:speed>5.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287506" lon="-77.996072">
+            <ele>3471.90</ele>
+            <time>2013-04-23T23:07:28.28Z</time>
+            <extensions>
+               <mlab:bearing>28.09</mlab:bearing>
+               <mlab:speed>7.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287361" lon="-77.996007">
+            <ele>3471.30</ele>
+            <time>2013-04-23T23:07:30.30Z</time>
+            <extensions>
+               <mlab:bearing>21.19</mlab:bearing>
+               <mlab:speed>8.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287224" lon="-77.995955">
+            <ele>3470.40</ele>
+            <time>2013-04-23T23:07:32.32Z</time>
+            <extensions>
+               <mlab:bearing>20.75</mlab:bearing>
+               <mlab:speed>7.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287113" lon="-77.995902">
+            <ele>3469.60</ele>
+            <time>2013-04-23T23:07:34.34Z</time>
+            <extensions>
+               <mlab:bearing>25.14</mlab:bearing>
+               <mlab:speed>6.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.287016" lon="-77.995854">
+            <ele>3469.10</ele>
+            <time>2013-04-23T23:07:36.36Z</time>
+            <extensions>
+               <mlab:bearing>27.79</mlab:bearing>
+               <mlab:speed>5.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286935" lon="-77.995795">
+            <ele>3468.50</ele>
+            <time>2013-04-23T23:07:38.38Z</time>
+            <extensions>
+               <mlab:bearing>42.37</mlab:bearing>
+               <mlab:speed>5.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286867" lon="-77.995705">
+            <ele>3468.00</ele>
+            <time>2013-04-23T23:07:40.40Z</time>
+            <extensions>
+               <mlab:bearing>55.34</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286794" lon="-77.995599">
+            <ele>3467.50</ele>
+            <time>2013-04-23T23:07:42.42Z</time>
+            <extensions>
+               <mlab:bearing>54.37</mlab:bearing>
+               <mlab:speed>7.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286714" lon="-77.995481">
+            <ele>3466.60</ele>
+            <time>2013-04-23T23:07:44.44Z</time>
+            <extensions>
+               <mlab:bearing>53.67</mlab:bearing>
+               <mlab:speed>7.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286630" lon="-77.995372">
+            <ele>3465.70</ele>
+            <time>2013-04-23T23:07:46.46Z</time>
+            <extensions>
+               <mlab:bearing>46.41</mlab:bearing>
+               <mlab:speed>7.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286526" lon="-77.995294">
+            <ele>3464.80</ele>
+            <time>2013-04-23T23:07:48.48Z</time>
+            <extensions>
+               <mlab:bearing>28.46</mlab:bearing>
+               <mlab:speed>7.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286400" lon="-77.995234">
+            <ele>3464.00</ele>
+            <time>2013-04-23T23:07:50.50Z</time>
+            <extensions>
+               <mlab:bearing>23.32</mlab:bearing>
+               <mlab:speed>7.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286276" lon="-77.995163">
+            <ele>3463.30</ele>
+            <time>2013-04-23T23:07:52.52Z</time>
+            <extensions>
+               <mlab:bearing>35.68</mlab:bearing>
+               <mlab:speed>7.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286169" lon="-77.995061">
+            <ele>3462.40</ele>
+            <time>2013-04-23T23:07:54.54Z</time>
+            <extensions>
+               <mlab:bearing>46.61</mlab:bearing>
+               <mlab:speed>8.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286084" lon="-77.994953">
+            <ele>3461.40</ele>
+            <time>2013-04-23T23:07:56.56Z</time>
+            <extensions>
+               <mlab:bearing>55.59</mlab:bearing>
+               <mlab:speed>7.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.286016" lon="-77.994862">
+            <ele>3460.80</ele>
+            <time>2013-04-23T23:07:58.58Z</time>
+            <extensions>
+               <mlab:bearing>49.55</mlab:bearing>
+               <mlab:speed>6.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285932" lon="-77.994799">
+            <ele>3460.20</ele>
+            <time>2013-04-23T23:08:00.00Z</time>
+            <extensions>
+               <mlab:bearing>27.73</mlab:bearing>
+               <mlab:speed>5.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285822" lon="-77.994771">
+            <ele>3459.60</ele>
+            <time>2013-04-23T23:08:02.02Z</time>
+            <extensions>
+               <mlab:bearing>7.92</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285706" lon="-77.994760">
+            <ele>3458.80</ele>
+            <time>2013-04-23T23:08:04.04Z</time>
+            <extensions>
+               <mlab:bearing>5.56</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285592" lon="-77.994741">
+            <ele>3458.20</ele>
+            <time>2013-04-23T23:08:06.06Z</time>
+            <extensions>
+               <mlab:bearing>10.32</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285486" lon="-77.994706">
+            <ele>3457.80</ele>
+            <time>2013-04-23T23:08:08.08Z</time>
+            <extensions>
+               <mlab:bearing>19.64</mlab:bearing>
+               <mlab:speed>6.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285376" lon="-77.994677">
+            <ele>3457.20</ele>
+            <time>2013-04-23T23:08:10.10Z</time>
+            <extensions>
+               <mlab:bearing>13.00</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285261" lon="-77.994658">
+            <ele>3456.50</ele>
+            <time>2013-04-23T23:08:12.12Z</time>
+            <extensions>
+               <mlab:bearing>10.32</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285144" lon="-77.994636">
+            <ele>3456.00</ele>
+            <time>2013-04-23T23:08:14.14Z</time>
+            <extensions>
+               <mlab:bearing>12.09</mlab:bearing>
+               <mlab:speed>6.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.285026" lon="-77.994611">
+            <ele>3455.50</ele>
+            <time>2013-04-23T23:08:16.16Z</time>
+            <extensions>
+               <mlab:bearing>14.70</mlab:bearing>
+               <mlab:speed>6.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284912" lon="-77.994585">
+            <ele>3454.60</ele>
+            <time>2013-04-23T23:08:18.18Z</time>
+            <extensions>
+               <mlab:bearing>12.83</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284800" lon="-77.994583">
+            <ele>3454.00</ele>
+            <time>2013-04-23T23:08:20.20Z</time>
+            <extensions>
+               <mlab:bearing>357.92</mlab:bearing>
+               <mlab:speed>6.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284692" lon="-77.994593">
+            <ele>3453.30</ele>
+            <time>2013-04-23T23:08:22.22Z</time>
+            <extensions>
+               <mlab:bearing>359.02</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284600" lon="-77.994583">
+            <ele>3452.40</ele>
+            <time>2013-04-23T23:08:24.24Z</time>
+            <extensions>
+               <mlab:bearing>15.00</mlab:bearing>
+               <mlab:speed>5.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284515" lon="-77.994549">
+            <ele>3451.60</ele>
+            <time>2013-04-23T23:08:26.26Z</time>
+            <extensions>
+               <mlab:bearing>26.86</mlab:bearing>
+               <mlab:speed>5.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284428" lon="-77.994503">
+            <ele>3450.70</ele>
+            <time>2013-04-23T23:08:28.28Z</time>
+            <extensions>
+               <mlab:bearing>25.89</mlab:bearing>
+               <mlab:speed>5.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284337" lon="-77.994464">
+            <ele>3449.90</ele>
+            <time>2013-04-23T23:08:30.30Z</time>
+            <extensions>
+               <mlab:bearing>21.53</mlab:bearing>
+               <mlab:speed>5.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284240" lon="-77.994430">
+            <ele>3449.30</ele>
+            <time>2013-04-23T23:08:32.32Z</time>
+            <extensions>
+               <mlab:bearing>20.01</mlab:bearing>
+               <mlab:speed>5.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284137" lon="-77.994386">
+            <ele>3448.50</ele>
+            <time>2013-04-23T23:08:34.34Z</time>
+            <extensions>
+               <mlab:bearing>26.98</mlab:bearing>
+               <mlab:speed>6.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.284026" lon="-77.994332">
+            <ele>3447.70</ele>
+            <time>2013-04-23T23:08:36.36Z</time>
+            <extensions>
+               <mlab:bearing>24.73</mlab:bearing>
+               <mlab:speed>7.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283906" lon="-77.994275">
+            <ele>3447.00</ele>
+            <time>2013-04-23T23:08:38.38Z</time>
+            <extensions>
+               <mlab:bearing>26.70</mlab:bearing>
+               <mlab:speed>7.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283781" lon="-77.994208">
+            <ele>3446.20</ele>
+            <time>2013-04-23T23:08:40.40Z</time>
+            <extensions>
+               <mlab:bearing>29.07</mlab:bearing>
+               <mlab:speed>7.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283663" lon="-77.994135">
+            <ele>3445.50</ele>
+            <time>2013-04-23T23:08:42.42Z</time>
+            <extensions>
+               <mlab:bearing>35.64</mlab:bearing>
+               <mlab:speed>7.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283589" lon="-77.994075">
+            <ele>3444.90</ele>
+            <time>2013-04-23T23:08:44.44Z</time>
+            <extensions>
+               <mlab:bearing>36.89</mlab:bearing>
+               <mlab:speed>4.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283514" lon="-77.994010">
+            <ele>3444.30</ele>
+            <time>2013-04-23T23:08:47.47Z</time>
+            <extensions>
+               <mlab:bearing>43.14</mlab:bearing>
+               <mlab:speed>3.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283425" lon="-77.993912">
+            <ele>3443.50</ele>
+            <time>2013-04-23T23:08:50.50Z</time>
+            <extensions>
+               <mlab:bearing>47.84</mlab:bearing>
+               <mlab:speed>5.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283369" lon="-77.993825">
+            <ele>3443.20</ele>
+            <time>2013-04-23T23:08:52.52Z</time>
+            <extensions>
+               <mlab:bearing>65.45</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283342" lon="-77.993721">
+            <ele>3442.70</ele>
+            <time>2013-04-23T23:08:54.54Z</time>
+            <extensions>
+               <mlab:bearing>79.72</mlab:bearing>
+               <mlab:speed>5.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283319" lon="-77.993632">
+            <ele>3442.20</ele>
+            <time>2013-04-23T23:08:56.56Z</time>
+            <extensions>
+               <mlab:bearing>69.80</mlab:bearing>
+               <mlab:speed>4.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283276" lon="-77.993548">
+            <ele>3441.80</ele>
+            <time>2013-04-23T23:08:58.58Z</time>
+            <extensions>
+               <mlab:bearing>56.79</mlab:bearing>
+               <mlab:speed>5.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283176" lon="-77.993487">
+            <ele>3441.20</ele>
+            <time>2013-04-23T23:09:00.00Z</time>
+            <extensions>
+               <mlab:bearing>22.16</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.283048" lon="-77.993439">
+            <ele>3440.60</ele>
+            <time>2013-04-23T23:09:02.02Z</time>
+            <extensions>
+               <mlab:bearing>22.18</mlab:bearing>
+               <mlab:speed>7.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282930" lon="-77.993382">
+            <ele>3440.00</ele>
+            <time>2013-04-23T23:09:04.04Z</time>
+            <extensions>
+               <mlab:bearing>26.78</mlab:bearing>
+               <mlab:speed>6.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282829" lon="-77.993337">
+            <ele>3439.50</ele>
+            <time>2013-04-23T23:09:06.06Z</time>
+            <extensions>
+               <mlab:bearing>23.71</mlab:bearing>
+               <mlab:speed>5.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282734" lon="-77.993304">
+            <ele>3438.90</ele>
+            <time>2013-04-23T23:09:08.08Z</time>
+            <extensions>
+               <mlab:bearing>16.79</mlab:bearing>
+               <mlab:speed>5.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282633" lon="-77.993270">
+            <ele>3438.30</ele>
+            <time>2013-04-23T23:09:10.10Z</time>
+            <extensions>
+               <mlab:bearing>19.67</mlab:bearing>
+               <mlab:speed>6.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282531" lon="-77.993232">
+            <ele>3437.60</ele>
+            <time>2013-04-23T23:09:12.12Z</time>
+            <extensions>
+               <mlab:bearing>22.83</mlab:bearing>
+               <mlab:speed>5.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282442" lon="-77.993192">
+            <ele>3437.10</ele>
+            <time>2013-04-23T23:09:14.14Z</time>
+            <extensions>
+               <mlab:bearing>27.11</mlab:bearing>
+               <mlab:speed>5.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282359" lon="-77.993146">
+            <ele>3436.50</ele>
+            <time>2013-04-23T23:09:16.16Z</time>
+            <extensions>
+               <mlab:bearing>30.68</mlab:bearing>
+               <mlab:speed>5.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282275" lon="-77.993089">
+            <ele>3435.90</ele>
+            <time>2013-04-23T23:09:18.18Z</time>
+            <extensions>
+               <mlab:bearing>37.45</mlab:bearing>
+               <mlab:speed>5.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282130" lon="-77.992962">
+            <ele>3434.60</ele>
+            <time>2013-04-23T23:09:22.22Z</time>
+            <extensions>
+               <mlab:bearing>40.38</mlab:bearing>
+               <mlab:speed>5.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.282042" lon="-77.992896">
+            <ele>3434.00</ele>
+            <time>2013-04-23T23:09:25.25Z</time>
+            <extensions>
+               <mlab:bearing>35.60</mlab:bearing>
+               <mlab:speed>2.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281942" lon="-77.992838">
+            <ele>3432.90</ele>
+            <time>2013-04-23T23:09:29.29Z</time>
+            <extensions>
+               <mlab:bearing>38.03</mlab:bearing>
+               <mlab:speed>4.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281862" lon="-77.992725">
+            <ele>3432.10</ele>
+            <time>2013-04-23T23:09:32.32Z</time>
+            <extensions>
+               <mlab:bearing>67.64</mlab:bearing>
+               <mlab:speed>5.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281811" lon="-77.992600">
+            <ele>3431.70</ele>
+            <time>2013-04-23T23:09:35.35Z</time>
+            <extensions>
+               <mlab:bearing>65.52</mlab:bearing>
+               <mlab:speed>5.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281729" lon="-77.992524">
+            <ele>3431.30</ele>
+            <time>2013-04-23T23:09:38.38Z</time>
+            <extensions>
+               <mlab:bearing>26.61</mlab:bearing>
+               <mlab:speed>3.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281624" lon="-77.992496">
+            <ele>3430.00</ele>
+            <time>2013-04-23T23:09:43.43Z</time>
+            <extensions>
+               <mlab:bearing>10.18</mlab:bearing>
+               <mlab:speed>2.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281529" lon="-77.992466">
+            <ele>3429.50</ele>
+            <time>2013-04-23T23:09:47.47Z</time>
+            <extensions>
+               <mlab:bearing>19.73</mlab:bearing>
+               <mlab:speed>2.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281446" lon="-77.992412">
+            <ele>3428.70</ele>
+            <time>2013-04-23T23:09:51.51Z</time>
+            <extensions>
+               <mlab:bearing>44.58</mlab:bearing>
+               <mlab:speed>2.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281393" lon="-77.992327">
+            <ele>3429.00</ele>
+            <time>2013-04-23T23:09:57.57Z</time>
+            <extensions>
+               <mlab:bearing>57.82</mlab:bearing>
+               <mlab:speed>1.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281352" lon="-77.992203">
+            <ele>3429.00</ele>
+            <time>2013-04-23T23:10:01.01Z</time>
+            <extensions>
+               <mlab:bearing>72.13</mlab:bearing>
+               <mlab:speed>4.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281326" lon="-77.992111">
+            <ele>3428.80</ele>
+            <time>2013-04-23T23:10:03.03Z</time>
+            <extensions>
+               <mlab:bearing>69.64</mlab:bearing>
+               <mlab:speed>5.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281285" lon="-77.992026">
+            <ele>3428.70</ele>
+            <time>2013-04-23T23:10:05.05Z</time>
+            <extensions>
+               <mlab:bearing>59.29</mlab:bearing>
+               <mlab:speed>4.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281223" lon="-77.991918">
+            <ele>3428.70</ele>
+            <time>2013-04-23T23:10:08.08Z</time>
+            <extensions>
+               <mlab:bearing>56.77</mlab:bearing>
+               <mlab:speed>4.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281114" lon="-77.991833">
+            <ele>3428.70</ele>
+            <time>2013-04-23T23:10:11.11Z</time>
+            <extensions>
+               <mlab:bearing>21.71</mlab:bearing>
+               <mlab:speed>5.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.281001" lon="-77.991800">
+            <ele>3428.60</ele>
+            <time>2013-04-23T23:10:13.13Z</time>
+            <extensions>
+               <mlab:bearing>15.06</mlab:bearing>
+               <mlab:speed>6.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280882" lon="-77.991757">
+            <ele>3428.30</ele>
+            <time>2013-04-23T23:10:15.15Z</time>
+            <extensions>
+               <mlab:bearing>25.67</mlab:bearing>
+               <mlab:speed>6.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280775" lon="-77.991679">
+            <ele>3427.90</ele>
+            <time>2013-04-23T23:10:17.17Z</time>
+            <extensions>
+               <mlab:bearing>41.45</mlab:bearing>
+               <mlab:speed>7.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280676" lon="-77.991607">
+            <ele>3427.70</ele>
+            <time>2013-04-23T23:10:19.19Z</time>
+            <extensions>
+               <mlab:bearing>30.37</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280576" lon="-77.991573">
+            <ele>3427.40</ele>
+            <time>2013-04-23T23:10:21.21Z</time>
+            <extensions>
+               <mlab:bearing>10.82</mlab:bearing>
+               <mlab:speed>5.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280477" lon="-77.991568">
+            <ele>3427.00</ele>
+            <time>2013-04-23T23:10:23.23Z</time>
+            <extensions>
+               <mlab:bearing>1.46</mlab:bearing>
+               <mlab:speed>5.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280356" lon="-77.991557">
+            <ele>3426.80</ele>
+            <time>2013-04-23T23:10:25.25Z</time>
+            <extensions>
+               <mlab:bearing>8.66</mlab:bearing>
+               <mlab:speed>6.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280231" lon="-77.991530">
+            <ele>3426.50</ele>
+            <time>2013-04-23T23:10:27.27Z</time>
+            <extensions>
+               <mlab:bearing>17.40</mlab:bearing>
+               <mlab:speed>6.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280127" lon="-77.991478">
+            <ele>3426.10</ele>
+            <time>2013-04-23T23:10:29.29Z</time>
+            <extensions>
+               <mlab:bearing>36.54</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.280041" lon="-77.991377">
+            <ele>3425.60</ele>
+            <time>2013-04-23T23:10:31.31Z</time>
+            <extensions>
+               <mlab:bearing>57.73</mlab:bearing>
+               <mlab:speed>7.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279977" lon="-77.991255">
+            <ele>3425.10</ele>
+            <time>2013-04-23T23:10:33.33Z</time>
+            <extensions>
+               <mlab:bearing>65.72</mlab:bearing>
+               <mlab:speed>7.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279930" lon="-77.991133">
+            <ele>3424.90</ele>
+            <time>2013-04-23T23:10:35.35Z</time>
+            <extensions>
+               <mlab:bearing>71.14</mlab:bearing>
+               <mlab:speed>7.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279880" lon="-77.991021">
+            <ele>3424.60</ele>
+            <time>2013-04-23T23:10:37.37Z</time>
+            <extensions>
+               <mlab:bearing>65.03</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279831" lon="-77.990938">
+            <ele>3424.30</ele>
+            <time>2013-04-23T23:10:39.39Z</time>
+            <extensions>
+               <mlab:bearing>57.74</mlab:bearing>
+               <mlab:speed>5.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279768" lon="-77.990852">
+            <ele>3424.30</ele>
+            <time>2013-04-23T23:10:42.42Z</time>
+            <extensions>
+               <mlab:bearing>46.31</mlab:bearing>
+               <mlab:speed>3.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279686" lon="-77.990789">
+            <ele>3424.20</ele>
+            <time>2013-04-23T23:10:48.48Z</time>
+            <extensions>
+               <mlab:bearing>21.22</mlab:bearing>
+               <mlab:speed>1.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279582" lon="-77.990807">
+            <ele>3422.70</ele>
+            <time>2013-04-23T23:10:55.55Z</time>
+            <extensions>
+               <mlab:bearing>322.08</mlab:bearing>
+               <mlab:speed>3.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279487" lon="-77.990866">
+            <ele>3422.60</ele>
+            <time>2013-04-23T23:10:58.58Z</time>
+            <extensions>
+               <mlab:bearing>335.87</mlab:bearing>
+               <mlab:speed>3.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279385" lon="-77.990885">
+            <ele>3422.30</ele>
+            <time>2013-04-23T23:11:01.01Z</time>
+            <extensions>
+               <mlab:bearing>359.06</mlab:bearing>
+               <mlab:speed>3.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279283" lon="-77.990862">
+            <ele>3421.90</ele>
+            <time>2013-04-23T23:11:05.05Z</time>
+            <extensions>
+               <mlab:bearing>19.16</mlab:bearing>
+               <mlab:speed>3.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279167" lon="-77.990847">
+            <ele>3421.60</ele>
+            <time>2013-04-23T23:11:08.08Z</time>
+            <extensions>
+               <mlab:bearing>357.58</mlab:bearing>
+               <mlab:speed>4.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.279078" lon="-77.990867">
+            <ele>3421.30</ele>
+            <time>2013-04-23T23:11:10.10Z</time>
+            <extensions>
+               <mlab:bearing>339.60</mlab:bearing>
+               <mlab:speed>4.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.278967" lon="-77.990895">
+            <ele>3421.20</ele>
+            <time>2013-04-23T23:11:13.13Z</time>
+            <extensions>
+               <mlab:bearing>345.81</mlab:bearing>
+               <mlab:speed>3.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.278862" lon="-77.990908">
+            <ele>3420.80</ele>
+            <time>2013-04-23T23:11:16.16Z</time>
+            <extensions>
+               <mlab:bearing>352.99</mlab:bearing>
+               <mlab:speed>3.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.278723" lon="-77.990938">
+            <ele>3420.00</ele>
+            <time>2013-04-23T23:11:19.19Z</time>
+            <extensions>
+               <mlab:bearing>346.98</mlab:bearing>
+               <mlab:speed>5.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.278607" lon="-77.990983">
+            <ele>3419.70</ele>
+            <time>2013-04-23T23:11:21.21Z</time>
+            <extensions>
+               <mlab:bearing>331.06</mlab:bearing>
+               <mlab:speed>6.75</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.278484" lon="-77.991038">
+            <ele>3418.90</ele>
+            <time>2013-04-23T23:11:23.23Z</time>
+            <extensions>
+               <mlab:bearing>332.05</mlab:bearing>
+               <mlab:speed>7.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.278365" lon="-77.991081">
+            <ele>3418.40</ele>
+            <time>2013-04-23T23:11:25.25Z</time>
+            <extensions>
+               <mlab:bearing>341.95</mlab:bearing>
+               <mlab:speed>6.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.278241" lon="-77.991105">
+            <ele>3417.70</ele>
+            <time>2013-04-23T23:11:27.27Z</time>
+            <extensions>
+               <mlab:bearing>349.10</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.278113" lon="-77.991142">
+            <ele>3416.80</ele>
+            <time>2013-04-23T23:11:29.29Z</time>
+            <extensions>
+               <mlab:bearing>339.35</mlab:bearing>
+               <mlab:speed>7.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.277978" lon="-77.991194">
+            <ele>3415.70</ele>
+            <time>2013-04-23T23:11:31.31Z</time>
+            <extensions>
+               <mlab:bearing>338.91</mlab:bearing>
+               <mlab:speed>8.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.277837" lon="-77.991237">
+            <ele>3414.50</ele>
+            <time>2013-04-23T23:11:33.33Z</time>
+            <extensions>
+               <mlab:bearing>345.08</mlab:bearing>
+               <mlab:speed>8.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.277688" lon="-77.991268">
+            <ele>3413.70</ele>
+            <time>2013-04-23T23:11:35.35Z</time>
+            <extensions>
+               <mlab:bearing>348.75</mlab:bearing>
+               <mlab:speed>8.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.277545" lon="-77.991303">
+            <ele>3412.70</ele>
+            <time>2013-04-23T23:11:37.37Z</time>
+            <extensions>
+               <mlab:bearing>342.85</mlab:bearing>
+               <mlab:speed>7.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.277417" lon="-77.991344">
+            <ele>3411.30</ele>
+            <time>2013-04-23T23:11:39.39Z</time>
+            <extensions>
+               <mlab:bearing>340.39</mlab:bearing>
+               <mlab:speed>7.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.277282" lon="-77.991397">
+            <ele>3410.30</ele>
+            <time>2013-04-23T23:11:41.41Z</time>
+            <extensions>
+               <mlab:bearing>337.01</mlab:bearing>
+               <mlab:speed>8.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.277147" lon="-77.991461">
+            <ele>3409.50</ele>
+            <time>2013-04-23T23:11:43.43Z</time>
+            <extensions>
+               <mlab:bearing>330.44</mlab:bearing>
+               <mlab:speed>8.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.277034" lon="-77.991539">
+            <ele>3408.60</ele>
+            <time>2013-04-23T23:11:45.45Z</time>
+            <extensions>
+               <mlab:bearing>320.54</mlab:bearing>
+               <mlab:speed>7.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.276942" lon="-77.991618">
+            <ele>3407.80</ele>
+            <time>2013-04-23T23:11:47.47Z</time>
+            <extensions>
+               <mlab:bearing>316.61</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.276849" lon="-77.991690">
+            <ele>3406.20</ele>
+            <time>2013-04-23T23:11:49.49Z</time>
+            <extensions>
+               <mlab:bearing>328.78</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.276740" lon="-77.991733">
+            <ele>3405.20</ele>
+            <time>2013-04-23T23:11:51.51Z</time>
+            <extensions>
+               <mlab:bearing>343.75</mlab:bearing>
+               <mlab:speed>6.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.276618" lon="-77.991777">
+            <ele>3404.50</ele>
+            <time>2013-04-23T23:11:53.53Z</time>
+            <extensions>
+               <mlab:bearing>340.11</mlab:bearing>
+               <mlab:speed>7.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.276497" lon="-77.991828">
+            <ele>3403.90</ele>
+            <time>2013-04-23T23:11:55.55Z</time>
+            <extensions>
+               <mlab:bearing>337.36</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.276392" lon="-77.991871">
+            <ele>3403.50</ele>
+            <time>2013-04-23T23:11:57.57Z</time>
+            <extensions>
+               <mlab:bearing>334.07</mlab:bearing>
+               <mlab:speed>6.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.276287" lon="-77.991921">
+            <ele>3402.90</ele>
+            <time>2013-04-23T23:11:59.59Z</time>
+            <extensions>
+               <mlab:bearing>329.49</mlab:bearing>
+               <mlab:speed>6.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.276068" lon="-77.991983">
+            <ele>3401.30</ele>
+            <time>2013-04-23T23:12:03.03Z</time>
+            <extensions>
+               <mlab:bearing>339.05</mlab:bearing>
+               <mlab:speed>5.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.275969" lon="-77.992002">
+            <ele>3400.50</ele>
+            <time>2013-04-23T23:12:05.05Z</time>
+            <extensions>
+               <mlab:bearing>338.71</mlab:bearing>
+               <mlab:speed>5.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.275865" lon="-77.992018">
+            <ele>3399.70</ele>
+            <time>2013-04-23T23:12:07.07Z</time>
+            <extensions>
+               <mlab:bearing>344.09</mlab:bearing>
+               <mlab:speed>5.62</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.275746" lon="-77.991978">
+            <ele>3399.20</ele>
+            <time>2013-04-23T23:12:09.09Z</time>
+            <extensions>
+               <mlab:bearing>15.30</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.275467" lon="-77.991880">
+            <ele>3397.20</ele>
+            <time>2013-04-23T23:12:13.13Z</time>
+            <extensions>
+               <mlab:bearing>20.01</mlab:bearing>
+               <mlab:speed>7.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.275351" lon="-77.991836">
+            <ele>3396.50</ele>
+            <time>2013-04-23T23:12:15.15Z</time>
+            <extensions>
+               <mlab:bearing>18.78</mlab:bearing>
+               <mlab:speed>6.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.275238" lon="-77.991785">
+            <ele>3395.50</ele>
+            <time>2013-04-23T23:12:17.17Z</time>
+            <extensions>
+               <mlab:bearing>18.70</mlab:bearing>
+               <mlab:speed>7.06</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.275116" lon="-77.991739">
+            <ele>3394.70</ele>
+            <time>2013-04-23T23:12:19.19Z</time>
+            <extensions>
+               <mlab:bearing>18.68</mlab:bearing>
+               <mlab:speed>6.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274996" lon="-77.991718">
+            <ele>3394.10</ele>
+            <time>2013-04-23T23:12:21.21Z</time>
+            <extensions>
+               <mlab:bearing>4.69</mlab:bearing>
+               <mlab:speed>6.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274884" lon="-77.991731">
+            <ele>3393.60</ele>
+            <time>2013-04-23T23:12:23.23Z</time>
+            <extensions>
+               <mlab:bearing>346.40</mlab:bearing>
+               <mlab:speed>6.12</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274787" lon="-77.991786">
+            <ele>3392.80</ele>
+            <time>2013-04-23T23:12:25.25Z</time>
+            <extensions>
+               <mlab:bearing>323.07</mlab:bearing>
+               <mlab:speed>6.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274685" lon="-77.991879">
+            <ele>3391.90</ele>
+            <time>2013-04-23T23:12:27.27Z</time>
+            <extensions>
+               <mlab:bearing>311.70</mlab:bearing>
+               <mlab:speed>7.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274597" lon="-77.992002">
+            <ele>3390.60</ele>
+            <time>2013-04-23T23:12:29.29Z</time>
+            <extensions>
+               <mlab:bearing>303.87</mlab:bearing>
+               <mlab:speed>7.69</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274511" lon="-77.992085">
+            <ele>3389.20</ele>
+            <time>2013-04-23T23:12:31.31Z</time>
+            <extensions>
+               <mlab:bearing>322.06</mlab:bearing>
+               <mlab:speed>6.00</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274418" lon="-77.992127">
+            <ele>3388.00</ele>
+            <time>2013-04-23T23:12:33.33Z</time>
+            <extensions>
+               <mlab:bearing>340.59</mlab:bearing>
+               <mlab:speed>5.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274309" lon="-77.992139">
+            <ele>3387.00</ele>
+            <time>2013-04-23T23:12:35.35Z</time>
+            <extensions>
+               <mlab:bearing>351.73</mlab:bearing>
+               <mlab:speed>5.88</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274191" lon="-77.992119">
+            <ele>3385.10</ele>
+            <time>2013-04-23T23:12:37.37Z</time>
+            <extensions>
+               <mlab:bearing>7.84</mlab:bearing>
+               <mlab:speed>6.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.274064" lon="-77.992067">
+            <ele>3383.10</ele>
+            <time>2013-04-23T23:12:39.39Z</time>
+            <extensions>
+               <mlab:bearing>20.59</mlab:bearing>
+               <mlab:speed>7.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273942" lon="-77.992026">
+            <ele>3382.50</ele>
+            <time>2013-04-23T23:12:41.41Z</time>
+            <extensions>
+               <mlab:bearing>18.48</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273743" lon="-77.991942">
+            <ele>3381.60</ele>
+            <time>2013-04-23T23:12:45.45Z</time>
+            <extensions>
+               <mlab:bearing>39.76</mlab:bearing>
+               <mlab:speed>5.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273684" lon="-77.991831">
+            <ele>3381.50</ele>
+            <time>2013-04-23T23:12:47.47Z</time>
+            <extensions>
+               <mlab:bearing>66.06</mlab:bearing>
+               <mlab:speed>6.81</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273629" lon="-77.991694">
+            <ele>3380.90</ele>
+            <time>2013-04-23T23:12:49.49Z</time>
+            <extensions>
+               <mlab:bearing>64.46</mlab:bearing>
+               <mlab:speed>7.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273549" lon="-77.991598">
+            <ele>3380.60</ele>
+            <time>2013-04-23T23:12:51.51Z</time>
+            <extensions>
+               <mlab:bearing>49.61</mlab:bearing>
+               <mlab:speed>6.44</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273443" lon="-77.991512">
+            <ele>3379.50</ele>
+            <time>2013-04-23T23:12:53.53Z</time>
+            <extensions>
+               <mlab:bearing>36.48</mlab:bearing>
+               <mlab:speed>7.38</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273351" lon="-77.991418">
+            <ele>3379.10</ele>
+            <time>2013-04-23T23:12:55.55Z</time>
+            <extensions>
+               <mlab:bearing>43.63</mlab:bearing>
+               <mlab:speed>6.50</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273284" lon="-77.991352">
+            <ele>3378.70</ele>
+            <time>2013-04-23T23:12:57.57Z</time>
+            <extensions>
+               <mlab:bearing>40.87</mlab:bearing>
+               <mlab:speed>4.56</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273183" lon="-77.991296">
+            <ele>3378.20</ele>
+            <time>2013-04-23T23:13:00.00Z</time>
+            <extensions>
+               <mlab:bearing>24.35</mlab:bearing>
+               <mlab:speed>4.31</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.273088" lon="-77.991293">
+            <ele>3377.60</ele>
+            <time>2013-04-23T23:13:02.02Z</time>
+            <extensions>
+               <mlab:bearing>0.94</mlab:bearing>
+               <mlab:speed>5.25</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.272887" lon="-77.991325">
+            <ele>3375.30</ele>
+            <time>2013-04-23T23:13:06.06Z</time>
+            <extensions>
+               <mlab:bearing>2.53</mlab:bearing>
+               <mlab:speed>4.94</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+         <trkpt lat="-8.272798" lon="-77.991287">
+            <ele>3375.00</ele>
+            <time>2013-04-23T23:13:08.08Z</time>
+            <extensions>
+               <mlab:bearing>24.99</mlab:bearing>
+               <mlab:speed>5.19</mlab:speed>
+               <mlab:accuracy>5.00</mlab:accuracy>
+            </extensions>
+         </trkpt>
+      </trkseg>
+   </trk>
+</gpx>
+
