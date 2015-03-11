@@ -63,7 +63,7 @@ public class StyleFac {
 	 * @return a new Style instance to render the image in greyscale
 	 */
 	public static Style createGreyscaleStyle(int band) {
-	    ContrastEnhancement ce = styleFactory.contrastEnhancement(GeoToolsMapFactory.filterFactory.literal(1.0), ContrastMethod.NORMALIZE);
+	    ContrastEnhancement ce = styleFactory.contrastEnhancement(GeoToolsFactory.filterFactory.literal(1.0), ContrastMethod.NORMALIZE);
 	    SelectedChannelType sct = styleFactory.createSelectedChannelType(String.valueOf(band), ce);
 	    RasterSymbolizer sym = styleFactory.getDefaultRasterSymbolizer();
 	    ChannelSelection sel = styleFactory.channelSelection(sct);
@@ -123,7 +123,7 @@ public class StyleFac {
 	    }
 	    // Now we create a RasterSymbolizer using the selected channels
 	    SelectedChannelType[] sct = new SelectedChannelType[cov.getNumSampleDimensions()];
-	    ContrastEnhancement ce = styleFactory.contrastEnhancement(GeoToolsMapFactory.filterFactory.literal(1.0), ContrastMethod.NORMALIZE);
+	    ContrastEnhancement ce = styleFactory.contrastEnhancement(GeoToolsFactory.filterFactory.literal(1.0), ContrastMethod.NORMALIZE);
 	    for (int i = 0; i < 3; i++) {
 	        sct[i] = styleFactory.createSelectedChannelType(String.valueOf(channelNum[i]), ce);
 	    }
@@ -168,14 +168,14 @@ public class StyleFac {
 	
 	    // create a partially opaque outline stroke
 	    Stroke stroke = styleFactory.createStroke(
-	            GeoToolsMapFactory.filterFactory.literal(Color.BLACK),
-	            GeoToolsMapFactory.filterFactory.literal(width),
-	            GeoToolsMapFactory.filterFactory.literal(0.5));
+	            GeoToolsFactory.filterFactory.literal(Color.BLACK),
+	            GeoToolsFactory.filterFactory.literal(width),
+	            GeoToolsFactory.filterFactory.literal(0.5));
 	
 	    // create a partial opaque fill
 	    Fill fill = styleFactory.createFill(
-	            GeoToolsMapFactory.filterFactory.literal(color),
-	            GeoToolsMapFactory.filterFactory.literal(0.0));
+	            GeoToolsFactory.filterFactory.literal(color),
+	            GeoToolsFactory.filterFactory.literal(0.0));
 	
 	    /*
 	     * Setting the geometryPropertyName arg to null signals that we want to
@@ -198,8 +198,8 @@ public class StyleFac {
 	 */
 	public static Style createLineStyle(Color color, int width) {
 	    Stroke stroke = styleFactory.createStroke(
-	            GeoToolsMapFactory.filterFactory.literal(color),
-	            GeoToolsMapFactory.filterFactory.literal(width));
+	            GeoToolsFactory.filterFactory.literal(color),
+	            GeoToolsFactory.filterFactory.literal(width));
 	    /*
 	     * Setting the geometryPropertyName arg to null signals that we want to
 	     * draw the default geomettry of features
@@ -222,13 +222,13 @@ public class StyleFac {
 		Mark mark = styleFactory.getCircleMark();
 	
 		mark.setStroke(styleFactory.createStroke(
-				GeoToolsMapFactory.filterFactory.literal(Color.BLACK), GeoToolsMapFactory.filterFactory.literal(1)));
+				GeoToolsFactory.filterFactory.literal(Color.BLACK), GeoToolsFactory.filterFactory.literal(1)));
 	
-		mark.setFill(styleFactory.createFill(GeoToolsMapFactory.filterFactory.literal(color)));
+		mark.setFill(styleFactory.createFill(GeoToolsFactory.filterFactory.literal(color)));
 	
 		gr.graphicalSymbols().clear();
 		gr.graphicalSymbols().add(mark);
-		gr.setSize(GeoToolsMapFactory.filterFactory.literal(width));
+		gr.setSize(GeoToolsFactory.filterFactory.literal(width));
 	
 		/*
 		 * Setting the geometryPropertyName arg to null signals that we want to
@@ -251,13 +251,13 @@ public class StyleFac {
 		Mark mark = styleFactory.getCircleMark();
 	
 		mark.setStroke(styleFactory.createStroke(
-				GeoToolsMapFactory.filterFactory.literal(lineColor), GeoToolsMapFactory.filterFactory.literal(lineWidth)));
+				GeoToolsFactory.filterFactory.literal(lineColor), GeoToolsFactory.filterFactory.literal(lineWidth)));
 	
-		mark.setFill(styleFactory.createFill(GeoToolsMapFactory.filterFactory.literal(fillColor)));
+		mark.setFill(styleFactory.createFill(GeoToolsFactory.filterFactory.literal(fillColor)));
 	
 		gr.graphicalSymbols().clear();
 		gr.graphicalSymbols().add(mark);
-		gr.setSize(GeoToolsMapFactory.filterFactory.literal(size));
+		gr.setSize(GeoToolsFactory.filterFactory.literal(size));
 	
 		/*
 		 * Setting the geometryPropertyName arg to null signals that we want to
@@ -287,7 +287,7 @@ public class StyleFac {
 	    try {
 	        ts = sb.createTextSymbolizer(Color.BLACK, sb.createFont(new Font("Arial", Font.PLAIN, 12)), columnName);
 	    } catch(IllegalFilterException ife) {
-	    	System.out.println("GeoToolsMapFactory.createStarLabeledStyle() Exception: "+ife.getMessage());
+	    	System.out.println("GeoToolsFactory.createStarLabeledStyle() Exception: "+ife.getMessage());
 	    }
 	    
 	    if(ts != null) {

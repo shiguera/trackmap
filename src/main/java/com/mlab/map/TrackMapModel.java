@@ -16,7 +16,7 @@ import org.opengis.referencing.crs.CoordinateReferenceSystem;
 
 import com.mlab.gpx.api.WayPoint;
 import com.mlab.gpx.impl.TrackSegment;
-import com.mlab.map.factory.GeoToolsMapFactory;
+import com.mlab.map.factory.GeoToolsFactory;
 import com.mlab.map.factory.StyleFac;
 import com.mlab.map.layer.GpxLayer;
 import com.mlab.map.layer.MobileLayer;
@@ -51,9 +51,16 @@ public class TrackMapModel extends AbstractObservable {
 		LOG.debug("MapModel()");
 		System.setProperty("org.geotools.referencing.forceXY", "true");
 		mapContent = new MapContent();
-		mapContent.getViewport().setCoordinateReferenceSystem(GeoToolsMapFactory.getWGS84CRS());
+		ReferencedEnvelope limits = new ReferencedEnvelope(GeoToolsFactory.WORLD_ENVELOPE_EPSG_4326,GeoToolsFactory.getWGS84CRS());
+		mapContent.getViewport().setBounds(limits);
 		
+		baseLayer = null;
 		vectorLayers = new ArrayList<ShpLayer>();
+		trackLayer = null;
+		mobileLayer = null;
+		lastPosition = null;
+		refseg = null;
+		
 	}
 	
 	public MapContent getMapContent() {
@@ -80,6 +87,13 @@ public class TrackMapModel extends AbstractObservable {
 	}
 	
 	// Layers
+	/**
+	 * Número total de capas del mapa, incluyendo
+	 * la capa base, las capas vectoriales, la 
+	 * trackLayer y la mobileLayer
+	 * 
+	 * @return
+	 */
 	public int getLayerCount() {
 		if (mapContent != null && mapContent.layers() != null) {
 			return mapContent.layers().size();
@@ -87,7 +101,7 @@ public class TrackMapModel extends AbstractObservable {
 			return 0;
 		}		
 	}
-	private Layer getLayer(int layerIndex) {
+	public Layer getLayer(int layerIndex) {
 		if (mapContent != null && mapContent.layers() != null) {
 			return mapContent.layers().get(layerIndex);
 		}
@@ -324,7 +338,7 @@ public class TrackMapModel extends AbstractObservable {
 		Color fillColor = new Color(MOBILEPOINT_FILL_COLOR);		
 		Style style = StyleFac.createPointStyle(lineColor,MOBILEPOINT_LINE_WIDTH, 
 				fillColor, MOBILEPOINT_SIZE);
-		MobileLayer layer = new MobileLayer("MobileLayer",GeoToolsMapFactory.getWGS84CRS(), lat,lon);
+		MobileLayer layer = new MobileLayer("MobileLayer",GeoToolsFactory.getWGS84CRS(), lat,lon);
 		layer.setStyle(style);
 		return layer;
 	}
@@ -357,7 +371,7 @@ public class TrackMapModel extends AbstractObservable {
 		double[] xy = null;
 		double[] latlon = this.getMobilePositionLonLat();
 		if(latlon != null) {
-			Envelope2D env = new Envelope2D(GeoToolsMapFactory.getWGS84CRS(),latlon[0],latlon[0],latlon[1],latlon[1]);
+			Envelope2D env = new Envelope2D(GeoToolsFactory.getWGS84CRS(),latlon[0],latlon[0],latlon[1],latlon[1]);
 			Envelope2D envproj = null;
 			try {
 				envproj = (Envelope2D) env.toBounds(getCoordinateReferenceSystem());

@@ -12,7 +12,7 @@ import org.opengis.feature.simple.SimpleFeature;
 import org.opengis.feature.simple.SimpleFeatureType;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
 
-import com.mlab.map.factory.GeoToolsMapFactory;
+import com.mlab.map.factory.GeoToolsFactory;
 import com.mlab.map.factory.StyleFac;
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.Point;
@@ -40,10 +40,10 @@ public class MobileLayer extends AbstractVectorLayer {
 		this.x = x;
 		this.y = y;
 		
-		Point point = GeoToolsMapFactory.getGeometryFactory().createPoint(new Coordinate(x,y));
+		Point point = GeoToolsFactory.getGeometryFactory().createPoint(new Coordinate(x,y));
 		style = createDefaultStyle();
 		
-		final SimpleFeatureType TYPE = GeoToolsMapFactory.createPointFeatureType(crs);		
+		final SimpleFeatureType TYPE = GeoToolsFactory.createPointFeatureType(crs);		
 		SimpleFeatureBuilder featureBuilder = new SimpleFeatureBuilder(TYPE);
 		featureBuilder.add(point);
 		featureBuilder.add(this.name);
@@ -69,10 +69,10 @@ public class MobileLayer extends AbstractVectorLayer {
 		this.x = x;
 		this.y = y;
 		
-		Point point = GeoToolsMapFactory.getGeometryFactory().createPoint(new Coordinate(x,y));
+		Point point = GeoToolsFactory.getGeometryFactory().createPoint(new Coordinate(x,y));
 		style = createDefaultStyle();
 		
-		final SimpleFeatureType TYPE = GeoToolsMapFactory.createWGS84PointFeatureType();		
+		final SimpleFeatureType TYPE = GeoToolsFactory.createWGS84PointFeatureType();		
 		SimpleFeatureBuilder featureBuilder = new SimpleFeatureBuilder(TYPE);
 		featureBuilder.add(point);
 		featureBuilder.add(name);
@@ -96,7 +96,7 @@ public class MobileLayer extends AbstractVectorLayer {
 		try {
 			feature = fl.getSimpleFeatureSource().getFeatures()
 					.features().next();
-			Point point = GeoToolsMapFactory.getGeometryFactory().createPoint(new Coordinate(newx, newy));
+			Point point = GeoToolsFactory.getGeometryFactory().createPoint(new Coordinate(newx, newy));
 			feature.setDefaultGeometry(point);
 			this.x = newx;
 			this.y = newy;

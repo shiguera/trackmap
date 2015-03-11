@@ -64,8 +64,8 @@ import com.vividsolutions.jts.index.SpatialIndex;
 import com.vividsolutions.jts.index.strtree.STRtree;
 import com.vividsolutions.jts.linearref.LocationIndexedLine;
 
-public class GeoToolsMapFactory {
-	static final Logger LOG = Logger.getLogger(GeoToolsMapFactory.class);
+public class GeoToolsFactory {
+	static final Logger LOG = Logger.getLogger(GeoToolsFactory.class);
 
 	private final static String GENERIC_CARTESIAN_2D = "LOCAL_CS[\"Generic cartesian 2D\",LOCAL_DATUM[\"Unknow\",0]"+
 			",UNIT[\"m\",1.0],AXIS[\"x\",EAST],AXIS[\"y\",NORTH]]";
@@ -79,7 +79,8 @@ public class GeoToolsMapFactory {
 			-17079392.0, 17079392.0, -20037508.0, 20037508.0 };
 	private static final double[] SPAIN_ENVELOPE_EPSG_4326 = new double[] {
 			-10.0, 5.0, 37.0, 43.0 };
-
+	public static final Envelope WORLD_ENVELOPE_EPSG_4326 = new Envelope(-179.99, 179.99, -89.99, 89.99);
+	
 	static final FilterFactory2 filterFactory = CommonFactoryFinder
 			.getFilterFactory2();
 	private static final GeometryFactory geometryFactory = JTSFactoryFinder
@@ -115,10 +116,10 @@ public class GeoToolsMapFactory {
 				Style style = StyleFac.createGreyscaleStyle(1);
 				rasterLayer = new GridReaderLayer(reader, style);
 			} else {
-				LOG.warn("GeoToolsMapFactory.readRasterLayer() ERROR: can't create reader");
+				LOG.warn("GeoToolsFactory.readRasterLayer() ERROR: can't create reader");
 			}
 		} else {
-			LOG.warn("GeoToolsMapFactory.readRasterLayer() ERROR: can't create AbstractGridFormat");
+			LOG.warn("GeoToolsFactory.readRasterLayer() ERROR: can't create AbstractGridFormat");
 		}
 		return rasterLayer;
 	}
@@ -150,17 +151,17 @@ public class GeoToolsMapFactory {
 				Style style = StyleFac.createRGBStyle(reader);
 				rasterLayer = new GridReaderLayer(reader, style);
 			} else {
-				LOG.warn("GeoToolsMapFactory.readRasterColorLayer() ERROR: can't create reader");
+				LOG.warn("GeoToolsFactory.readRasterColorLayer() ERROR: can't create reader");
 			}
 		} else {
-			LOG.warn("GeoToolsMapFactory.readRasterColorLayer() ERROR: can't create AbstractGridFormat");
+			LOG.warn("GeoToolsFactory.readRasterColorLayer() ERROR: can't create AbstractGridFormat");
 		}
 		return rasterLayer;
 	}
 
 	public static ShpLayer createShpLayer(File file) {
 		if (!file.exists()) {
-			LOG.warn("GeoToolsMapFactory.createShpLayer() ERROR: File doesn't exist "
+			LOG.warn("GeoToolsFactory.createShpLayer() ERROR: File doesn't exist "
 					+ file.getPath());
 			return null;
 		}
@@ -171,7 +172,7 @@ public class GeoToolsMapFactory {
 
 	public static ShpLayer createShpLayer(File file, Style style) {
 		if (!file.exists()) {
-			LOG.error("GeoToolsMapFactory.createShpLayer2() Error: File doesn't exist "
+			LOG.error("GeoToolsFactory.createShpLayer2() Error: File doesn't exist "
 				+ file.getPath());
 			return null;
 		}
@@ -227,13 +228,13 @@ public class GeoToolsMapFactory {
 	}
 	public static CoordinateReferenceSystem getEPSGCRS(int crscode) {
 		String code = String.format("EPSG:%d", crscode);
-		// System.out.println("GeoToolsMapFactory.getEPSGCrs() : "+code);
+		// System.out.println("GeoToolsFactory.getEPSGCrs() : "+code);
 		CoordinateReferenceSystem crs = null;
 		try {
 			crsFactory = CRS.getAuthorityFactory(true);
 			crs = crsFactory.createCoordinateReferenceSystem(code);
 		} catch (Exception e) {
-			LOG.error("GeoToolsMapFactory.getEPSGCRS() ERROR: can't create crs");
+			LOG.error("GeoToolsFactory.getEPSGCRS() ERROR: can't create crs");
 			return null;
 		}
 		return crs;
@@ -246,7 +247,7 @@ public class GeoToolsMapFactory {
 		try {
 			tr = CRS.findMathTransform(source, target);
 		} catch (Exception e) {
-			LOG.warn("GeoToolsMapFactory.mathTransform() ERROR: tr=null");
+			LOG.warn("GeoToolsFactory.mathTransform() ERROR: tr=null");
 		}
 		return tr;
 	}
@@ -259,7 +260,7 @@ public class GeoToolsMapFactory {
 		try {
 			origin = CRS.decode("EPSG:4326");
 		} catch (Exception e) {
-			LOG.error("GeoToolsMapFactory.generateTransformFromWGS84() ERROR: can't create EPSG:4326");
+			LOG.error("GeoToolsFactory.generateTransformFromWGS84() ERROR: can't create EPSG:4326");
 			return null;
 		}
 		CoordinateReferenceSystem dest = crs;
@@ -268,21 +269,21 @@ public class GeoToolsMapFactory {
 		try {
 			transform = CRS.findMathTransform(origin, dest, lenient);
 		} catch (FactoryException e) {
-			LOG.error("GeoToolsMapFactory.generateTransformFromWGS84() ERROR: can't create transform");
+			LOG.error("GeoToolsFactory.generateTransformFromWGS84() ERROR: can't create transform");
 		}
 		return transform;
 	}
 	public static MathTransform generateTransformToWGS84(
 			CoordinateReferenceSystem crs) {
 		if(crs==null) {
-			LOG.error("GeoToolsMapFactory.generateTransformToWGS84() ERROR: crs==null");
+			LOG.error("GeoToolsFactory.generateTransformToWGS84() ERROR: crs==null");
 			return null;
 		}
 		CoordinateReferenceSystem origin = null;
 		try {
 			origin = CRS.decode("EPSG:4326");
 		} catch (Exception e) {
-			LOG.error("GeoToolsMapFactory.generateTransformToWGS84() ERROR: can't create EPSG:4326");
+			LOG.error("GeoToolsFactory.generateTransformToWGS84() ERROR: can't create EPSG:4326");
 			return null;
 		}
 		CoordinateReferenceSystem dest = crs;
@@ -291,7 +292,7 @@ public class GeoToolsMapFactory {
 		try {
 			transform = CRS.findMathTransform(origin, dest, lenient);
 		} catch (FactoryException e) {
-			LOG.error("GeoToolsMapFactory.generateTransformToWGS84() ERROR: can't create transform");
+			LOG.error("GeoToolsFactory.generateTransformToWGS84() ERROR: can't create transform");
 		}
 		return transform;
 	}
@@ -310,28 +311,28 @@ public class GeoToolsMapFactory {
 		return bounds;
 	}
 	public static ReferencedEnvelope getPNOABounds() {
-		CoordinateReferenceSystem crs = GeoToolsMapFactory.getEPSGCRS(PNOA_CRS_CODE);
+		CoordinateReferenceSystem crs = GeoToolsFactory.getEPSGCRS(PNOA_CRS_CODE);
 		ReferencedEnvelope env = new ReferencedEnvelope(
 				PNOA_ENVELOPE_EPSG_25830[0], PNOA_ENVELOPE_EPSG_25830[1],
 				PNOA_ENVELOPE_EPSG_25830[2], PNOA_ENVELOPE_EPSG_25830[3], crs);
 		return env;
 	}
 	public static ReferencedEnvelope getWorldEpsg3857Bounds() {
-		CoordinateReferenceSystem crs = GeoToolsMapFactory.getEPSGCRS(3857);
+		CoordinateReferenceSystem crs = GeoToolsFactory.getEPSGCRS(3857);
 		ReferencedEnvelope env = new ReferencedEnvelope(
 				WORLD_ENVELOPE_EPSG_3857[0], WORLD_ENVELOPE_EPSG_3857[1],
 				WORLD_ENVELOPE_EPSG_3857[2], WORLD_ENVELOPE_EPSG_3857[3], crs);
 		return env;
 	}
 	public static ReferencedEnvelope getPeruEpsg3857Bounds() {
-		CoordinateReferenceSystem crs = GeoToolsMapFactory.getEPSGCRS(3857);
+		CoordinateReferenceSystem crs = GeoToolsFactory.getEPSGCRS(3857);
 		ReferencedEnvelope env = new ReferencedEnvelope(
 				PERU_ENVELOPE_EPSG_3857[0], PERU_ENVELOPE_EPSG_3857[1],
 				PERU_ENVELOPE_EPSG_3857[2], PERU_ENVELOPE_EPSG_3857[3], crs);
 		return env;
 	}
 	public static ReferencedEnvelope getSpainEpsg4326Bounds() {
-		CoordinateReferenceSystem crs = GeoToolsMapFactory.getWGS84CRS();
+		CoordinateReferenceSystem crs = GeoToolsFactory.getWGS84CRS();
 		ReferencedEnvelope env = new ReferencedEnvelope(
 				SPAIN_ENVELOPE_EPSG_4326[0], SPAIN_ENVELOPE_EPSG_4326[1],
 				SPAIN_ENVELOPE_EPSG_4326[2], SPAIN_ENVELOPE_EPSG_4326[3], crs);
@@ -428,7 +429,7 @@ public class GeoToolsMapFactory {
 	/**
 	 * Crea una FeatureCollection de puntos en base a los puntos de una LineString.<br/>
 	 * Utiliza un CRS Cartesian2D .<br/>
-	 * El FeatureType lo crea con GeoToolsMapFactory.createPointFeatureType()
+	 * El FeatureType lo crea con GeoToolsFactory.createPointFeatureType()
 	 * 
 	 * @param ls LineString en coordenadas cartesianas
 	 * 
@@ -446,7 +447,7 @@ public class GeoToolsMapFactory {
 			LOG.error("Error parsing CRS "+e.getMessage());
 		}
 		
-		final SimpleFeatureType TYPE = GeoToolsMapFactory.createPointFeatureType(crs);
+		final SimpleFeatureType TYPE = GeoToolsFactory.createPointFeatureType(crs);
 
 		SimpleFeatureBuilder featBuilder = new SimpleFeatureBuilder(TYPE);
 		for (int i = 0; i < ls.getNumPoints(); i++) {
@@ -462,7 +463,7 @@ public class GeoToolsMapFactory {
 	/**
 	 * Crea una FeatureCollection de puntos en base a los puntos de una LineString.<br/>
 	 * Utiliza un CRS Cartesian2D .<br/>
-	 * El FeatureType lo crea con GeoToolsMapFactory.createLineFeatureType()
+	 * El FeatureType lo crea con GeoToolsFactory.createLineFeatureType()
 	 * 
 	 * @param ls LineString en coordenadas cartesianas
 	 * 
@@ -480,7 +481,7 @@ public class GeoToolsMapFactory {
 			LOG.error("lineStringToLineFeatureCollection(): Error parsing CRS "+e.getMessage());
 		}
 		
-		final SimpleFeatureType TYPE = GeoToolsMapFactory.createLineFeatureType(crs);
+		final SimpleFeatureType TYPE = GeoToolsFactory.createLineFeatureType(crs);
 
 		SimpleFeatureBuilder featBuilder = new SimpleFeatureBuilder(TYPE);
 		featBuilder.add(ls);
@@ -552,7 +553,7 @@ public class GeoToolsMapFactory {
 			try {
 				transaction.close();
 			} catch (IOException e) {
-				LOG.warn("GeoToolsMapFactory.saveAsShapefile() ERROR: can't close transaction\n"
+				LOG.warn("GeoToolsFactory.saveAsShapefile() ERROR: can't close transaction\n"
 						+ e.getMessage());
 				result = false;
 			}
@@ -577,14 +578,14 @@ public class GeoToolsMapFactory {
 		final SimpleFeatureType TYPE;
 		SimpleFeatureCollection coll = null;
 		if(pointgeometry) {
-			TYPE = GeoToolsMapFactory.createPointFeatureType(crs);	
-			coll = GeoToolsMapFactory.lineStringToPointFeatureCollection(ls);
+			TYPE = GeoToolsFactory.createPointFeatureType(crs);	
+			coll = GeoToolsFactory.lineStringToPointFeatureCollection(ls);
 		} else {
-			TYPE = GeoToolsMapFactory.createLineFeatureType(crs);
-			coll = GeoToolsMapFactory.lineStringToLineFeatureCollection(ls);
+			TYPE = GeoToolsFactory.createLineFeatureType(crs);
+			coll = GeoToolsFactory.lineStringToLineFeatureCollection(ls);
 		}
 		if(coll != null) {
-			return GeoToolsMapFactory.saveAsShapefile(shpfile, TYPE, coll);	
+			return GeoToolsFactory.saveAsShapefile(shpfile, TYPE, coll);	
 		} else {
 			LOG.warn("saveAsShapefile() Error, FeatureCollection null"); 
 			return false;
@@ -634,7 +635,7 @@ public class GeoToolsMapFactory {
 
 	public static boolean saveSegmentAsLineShapefile(File file,
 			TrackSegment segment) {
-		LineString ls = GeoToolsMapFactory.segmentToLinestringLonLat(segment);
+		LineString ls = GeoToolsFactory.segmentToLinestringLonLat(segment);
 		if (ls == null) {
 			LOG.warn("saveSegmentAsLineShapefile(): TrackSegment null, can't save file " + file.getName());
 			return false;
@@ -664,7 +665,7 @@ public class GeoToolsMapFactory {
 		DefaultFeatureCollection coll = new DefaultFeatureCollection();
 		coll.add(feature);
 
-		boolean result = GeoToolsMapFactory.saveAsShapefile(file, TYPE, coll);
+		boolean result = GeoToolsFactory.saveAsShapefile(file, TYPE, coll);
 		if (!result) {
 			LOG.warn("saveSegmentAsLineShapefile(): Can't save file " + file.getName());
 		}
@@ -708,7 +709,7 @@ public class GeoToolsMapFactory {
 			// System.out.println(feature.getDefaultGeometry().toString());
 		}
 
-		boolean result = GeoToolsMapFactory.saveAsShapefile(file, TYPE, coll);
+		boolean result = GeoToolsFactory.saveAsShapefile(file, TYPE, coll);
 		if (!result) {
 			LOG.warn("saveSegmentAsPointsShapefile(): Can't save file " + file.getName());
 		}
@@ -721,7 +722,7 @@ public class GeoToolsMapFactory {
 		builder.setName("Location");
 		builder.setCRS(getWGS84CRS());
 		// builder.setSRS( "EPSG:4326" );
-		// builder.setCRS(GeoToolsMapFactory.getWGS84CRS()); // <- Coordinate reference
+		// builder.setCRS(GeoToolsFactory.getWGS84CRS()); // <- Coordinate reference
 		// system
 
 		// add attributes in order

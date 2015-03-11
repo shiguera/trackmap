@@ -44,36 +44,36 @@ public class TestMapFactory {
 	
 	@Test
 	public void testCommonFactories() {
-		LOG.info("Testing GeoToolsMapFactory.testCommonFactories()");
+		LOG.info("Testing GeoToolsFactory.testCommonFactories()");
 		assertTrue(StyleFac.getStyleFactory().getClass().isAssignableFrom(org.geotools.styling.StyleFactoryImpl.class));
-		assertTrue(GeoToolsMapFactory.getFilterFactory().getClass().isAssignableFrom(org.geotools.filter.FilterFactoryImpl.class));
-		assertTrue(GeoToolsMapFactory.getGeometryFactory().getClass().isAssignableFrom(com.vividsolutions.jts.geom.GeometryFactory.class));
+		assertTrue(GeoToolsFactory.getFilterFactory().getClass().isAssignableFrom(org.geotools.filter.FilterFactoryImpl.class));
+		assertTrue(GeoToolsFactory.getGeometryFactory().getClass().isAssignableFrom(com.vividsolutions.jts.geom.GeometryFactory.class));
 	}
 	@Test
 	public void testCreateShpLayer() {
-		LOG.info("Testing GeoToolsMapFactory.testCreateShpLayer()");
+		LOG.info("Testing GeoToolsFactory.testCreateShpLayer()");
 		File file = new File("src/test/resources/ptos2.shp");
 		assertTrue(file.exists());
-		ShpLayer l = GeoToolsMapFactory.createShpLayer(file);
+		ShpLayer l = GeoToolsFactory.createShpLayer(file);
 		assertNotNull(l);
 		assertEquals(l.getLayer().getTitle(), "ptos2.shp");
 	}
 	@Test
 	public void testCreateGpxLayer() {
-		LOG.info("Testing GeoToolsMapFactory.testCreateGpxLayer()");
+		LOG.info("Testing GeoToolsFactory.testCreateGpxLayer()");
 		String filename = "20130318_125729.gpx";
 		File file = new File("src/test/resources/"+filename);
 		assertTrue(file.exists());
 		GpxDocument gpxdoc = GpxFactory.readGpxDocument(file);
 		assertNotNull(gpxdoc);
-		GpxLayer l = GeoToolsMapFactory.createGpxLayer(gpxdoc);
+		GpxLayer l = GeoToolsFactory.createGpxLayer(gpxdoc);
 		assertNotNull(l);
 		assertEquals(l.getName(), filename);
 	}
 	
 	@Test
 	public void testCreateShapefileDataStore() {
-		LOG.info("Testing GeoToolsMapFactory.testCreateShapefileDataStore()");
+		LOG.info("Testing GeoToolsFactory.testCreateShapefileDataStore()");
 		SimpleFeatureTypeBuilder builder = new SimpleFeatureTypeBuilder();
 		builder.setName("LocationTest");
 		builder.setCRS(DefaultGeographicCRS.WGS84);
@@ -83,7 +83,7 @@ public class TestMapFactory {
 		assertNotNull(LOCATION);
 		//System.out.println(LOCATION);
 		File shp = new File("src/test/resources/test.shp");
-		SimpleFeatureStore store = GeoToolsMapFactory.createShapefileDataStore(shp, LOCATION);
+		SimpleFeatureStore store = GeoToolsFactory.createShapefileDataStore(shp, LOCATION);
 		assertNotNull(store);
 		assertTrue(shp.exists());
 		//System.out.println(store);
@@ -98,7 +98,7 @@ public class TestMapFactory {
 	}
 	@Test
 	public void testCreateShapefileDataStore2() {
-		LOG.info("Testing GeoToolsMapFactory.testCreateShapefileDataStore2()");
+		LOG.info("Testing GeoToolsFactory.testCreateShapefileDataStore2()");
 		SimpleFeatureTypeBuilder builder = new SimpleFeatureTypeBuilder();
 		builder.setName("LinestringTest");
 		CoordinateReferenceSystem crs=null;
@@ -114,7 +114,7 @@ public class TestMapFactory {
 		final SimpleFeatureType TYPE = builder.buildFeatureType();
 		assertNotNull(TYPE);
 		File shp = new File("src/test/resources/testline.shp");
-		SimpleFeatureStore store = GeoToolsMapFactory.createShapefileDataStore(shp, TYPE);
+		SimpleFeatureStore store = GeoToolsFactory.createShapefileDataStore(shp, TYPE);
 		assertNotNull(store);
 		assertTrue(shp.exists());
 		System.out.println(store);
@@ -130,7 +130,7 @@ public class TestMapFactory {
 
 	@Test
 	public void testSaveAsShapefile() {
-		LOG.info("Testing GeoToolsMapFactory.testSaveAsShapefile()");
+		LOG.info("Testing GeoToolsFactory.testSaveAsShapefile()");
 		SimpleFeatureTypeBuilder builder = new SimpleFeatureTypeBuilder();
 		builder.setName("LocationTest");
 		builder.setCRS(DefaultGeographicCRS.WGS84);
@@ -140,7 +140,7 @@ public class TestMapFactory {
 		assertNotNull(LOCATION);
 		
 		SimpleFeatureBuilder featBuilder = new SimpleFeatureBuilder(LOCATION);
-		Point p1 = GeoToolsMapFactory.getGeometryFactory().createPoint(new Coordinate(-3.98, 42.7));
+		Point p1 = GeoToolsFactory.getGeometryFactory().createPoint(new Coordinate(-3.98, 42.7));
 		featBuilder.add(p1);
 		featBuilder.add("P1");
 		SimpleFeature feat = featBuilder.buildFeature(null);
@@ -151,15 +151,15 @@ public class TestMapFactory {
 		assertTrue(collection.size()==1);
 		
 		File shp = new File("src/test/resources/test.shp");
-		boolean result = GeoToolsMapFactory.saveAsShapefile(shp, LOCATION, collection);
+		boolean result = GeoToolsFactory.saveAsShapefile(shp, LOCATION, collection);
 		assertTrue(result);
 		
 	}
 	@Test
 	public void testCreateTifLayer() {
-		System.out.print("Testing GeoToolsMapFactory.testCreateTifLayer()");
+		System.out.print("Testing GeoToolsFactory.testCreateTifLayer()");
 		URL url = ClassLoader.getSystemResource("ovr.tif");
-		TifLayer l = GeoToolsMapFactory.createTifLayer(new File(url.getPath()));
+		TifLayer l = GeoToolsFactory.createTifLayer(new File(url.getPath()));
 		assertNotNull(l);
 		assertEquals(l.getLayer().getBounds().getHeight(), 180.0,0.01);
 
@@ -167,7 +167,7 @@ public class TestMapFactory {
 		Assert.assertNotNull(url.getPath());
 		File file = new File(url.getPath());
 		Assert.assertTrue(file.exists());
-		TifLayer l2 = GeoToolsMapFactory.createTifLayer(file);
+		TifLayer l2 = GeoToolsFactory.createTifLayer(file);
 //		assertNotNull(l2);
 //		assertNotNull(l2.getLayer());
 //		assertNotNull(l2.getLayer().getBounds());
@@ -179,15 +179,15 @@ public class TestMapFactory {
 	}
 	@Test
 	public void testGetEPSGCRS() {
-		System.out.print("Testing GeoToolsMapFactory.testGetEPSGCRS()");
+		System.out.print("Testing GeoToolsFactory.testGetEPSGCRS()");
 		
 		// Valid crs
-		CoordinateReferenceSystem crs = GeoToolsMapFactory.getEPSGCRS(25830);
+		CoordinateReferenceSystem crs = GeoToolsFactory.getEPSGCRS(25830);
 		assertNotNull(crs);
 		assertEquals( "EPSG:ETRS89 / UTM zone 30N", crs.getName().toString());
 		// Not valid crs
 		LOG.info("Next severe is forced by test");
-		crs = GeoToolsMapFactory.getEPSGCRS(30);
+		crs = GeoToolsFactory.getEPSGCRS(30);
 		assertNull(crs);
 
 		System.out.println("OK");
@@ -195,7 +195,7 @@ public class TestMapFactory {
 	}
 	@Test
 	public void testSaveSegmentAsLineShapefile() {
-		System.out.print("Testing GeoToolsMapFactory.saveSegmentAsLineShapefile()");
+		System.out.print("Testing GeoToolsFactory.saveSegmentAsLineShapefile()");
 		URL url = ClassLoader.getSystemResource("20130318_125729.gpx");
 		File file = new File(url.getPath());
 		assertTrue(file.exists());
@@ -214,7 +214,7 @@ public class TestMapFactory {
 		} catch (IOException e) {
 			Assert.fail("Can't create tmp file: "+ e.getMessage());
 		}
-		boolean result = GeoToolsMapFactory.saveSegmentAsLineShapefile(destfile, segment);
+		boolean result = GeoToolsFactory.saveSegmentAsLineShapefile(destfile, segment);
 		assertTrue(result);
 		assertTrue(destfile.exists());
 		System.out.println(destfile.getAbsolutePath());
@@ -224,7 +224,7 @@ public class TestMapFactory {
 	}
 	@Test
 	public void testSaveSegmentAsPointsShapefile() {
-		System.out.print("Testing GeoToolsMapFactory.saveSegmentAsPointsShapefile()");
+		System.out.print("Testing GeoToolsFactory.saveSegmentAsPointsShapefile()");
 		URL url = ClassLoader.getSystemResource("20130318_125729.gpx");
 		File file = new File(url.getPath());
 		assertTrue(file.exists());
@@ -237,7 +237,7 @@ public class TestMapFactory {
 		TrackSegment segment = (TrackSegment)track.get(0);
 
 		File destfile = new File ("tmp/RPTest.shp");			
-		boolean result = GeoToolsMapFactory.saveSegmentAsPointsShapefile(destfile, segment);
+		boolean result = GeoToolsFactory.saveSegmentAsPointsShapefile(destfile, segment);
 		assertTrue(result);
 		assertTrue(destfile.exists());
 		System.out.println(destfile.getAbsolutePath());
@@ -247,26 +247,26 @@ public class TestMapFactory {
 
 	@Test
 	public void testLineStringToPointFeatureCollection() {
-		System.out.print("Testing GeoToolsMapFactory.lineStringToPointFeatureCollection()...");
+		System.out.print("Testing GeoToolsFactory.lineStringToPointFeatureCollection()...");
 		GeometryFactory factory = JTSFactoryFinder.getGeometryFactory();
 		Coordinate[] coords = {new Coordinate(0.0,0.0), new Coordinate(10.0,10.0)};
 		LineString ls = factory.createLineString(coords);
 		Assert.assertNotNull(ls);
 		System.out.println("LineString.getNumPoints():"+ls.getNumPoints());
-		SimpleFeatureCollection coll = GeoToolsMapFactory.lineStringToPointFeatureCollection(ls);
+		SimpleFeatureCollection coll = GeoToolsFactory.lineStringToPointFeatureCollection(ls);
 		Assert.assertNotNull(coll);
 		Assert.assertEquals(2, coll.size());
 		System.out.println("OK");
 	}
 	@Test
 	public void testLineStringToLineFeatureCollection() {
-		System.out.print("Testing GeoToolsMapFactory.lineStringToLineFeatureCollection()...");
+		System.out.print("Testing GeoToolsFactory.lineStringToLineFeatureCollection()...");
 		GeometryFactory factory = JTSFactoryFinder.getGeometryFactory();
 		Coordinate[] coords = {new Coordinate(0.0,0.0), new Coordinate(10.0,10.0)};
 		LineString ls = factory.createLineString(coords);
 		Assert.assertNotNull(ls);
 		System.out.println("LineString.getNumPoints():"+ls.getNumPoints());
-		SimpleFeatureCollection coll = GeoToolsMapFactory.lineStringToLineFeatureCollection(ls);
+		SimpleFeatureCollection coll = GeoToolsFactory.lineStringToLineFeatureCollection(ls);
 		Assert.assertNotNull(coll);
 		Assert.assertEquals(1, coll.size());
 		System.out.println("OK");
@@ -274,22 +274,22 @@ public class TestMapFactory {
 	
 	@Test
 	public void testSaveAsShapefile_LineString() {
-		System.out.print("Testing GeoToolsMapFactory.saveAsShapefile_LineString()...");
+		System.out.print("Testing GeoToolsFactory.saveAsShapefile_LineString()...");
 		GeometryFactory factory = JTSFactoryFinder.getGeometryFactory();
 		Coordinate[] coords = {new Coordinate(0.0,0.0), new Coordinate(10.0,10.0)};
 		LineString ls = factory.createLineString(coords);
 		Assert.assertNotNull(ls);
 		System.out.println("LineString.getNumPoints():"+ls.getNumPoints());
-		SimpleFeatureCollection coll = GeoToolsMapFactory.lineStringToPointFeatureCollection(ls);
+		SimpleFeatureCollection coll = GeoToolsFactory.lineStringToPointFeatureCollection(ls);
 		Assert.assertNotNull(coll);
 		File shp = new File("src/test/resources/test2.shp");
-		boolean result = GeoToolsMapFactory.saveAsShapefile(shp, ls, true);
+		boolean result = GeoToolsFactory.saveAsShapefile(shp, ls, true);
 		assertTrue(result);
 		
-		coll = GeoToolsMapFactory.lineStringToLineFeatureCollection(ls);
+		coll = GeoToolsFactory.lineStringToLineFeatureCollection(ls);
 		Assert.assertNotNull(coll);
 		shp = new File("src/test/resources/test3.shp");
-		result = GeoToolsMapFactory.saveAsShapefile(shp, ls, false);
+		result = GeoToolsFactory.saveAsShapefile(shp, ls, false);
 		assertTrue(result);
 		
 		System.out.println("OK");
@@ -297,7 +297,7 @@ public class TestMapFactory {
 
 	@Test
 	public void testCreatePointFeatureType() {
-		System.out.print("Testing GeoToolsMapFactory.createPointFeatureType()...");
+		System.out.print("Testing GeoToolsFactory.createPointFeatureType()...");
 		String wkt = "LOCAL_CS[\"Generic cartesian 2D\",LOCAL_DATUM[\"Unknow\",0]"+
 				",UNIT[\"m\",1.0],AXIS[\"x\",EAST],AXIS[\"y\",NORTH]]";
 		CoordinateReferenceSystem crs = null;
@@ -308,7 +308,7 @@ public class TestMapFactory {
 			e.printStackTrace();
 		}
 		Assert.assertNotNull(crs);
-		final SimpleFeatureType TYPE = GeoToolsMapFactory.createPointFeatureType(crs);		
+		final SimpleFeatureType TYPE = GeoToolsFactory.createPointFeatureType(crs);		
 		Assert.assertNotNull(TYPE);
 		System.out.println("OK");
 	}

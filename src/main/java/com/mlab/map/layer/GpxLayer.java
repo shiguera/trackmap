@@ -19,7 +19,7 @@ import com.mlab.gpx.api.GpxFactory;
 import com.mlab.gpx.api.WayPoint;
 import com.mlab.gpx.impl.Track;
 import com.mlab.gpx.impl.TrackSegment;
-import com.mlab.map.factory.GeoToolsMapFactory;
+import com.mlab.map.factory.GeoToolsFactory;
 import com.mlab.map.factory.StyleFac;
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.LineString;
@@ -100,7 +100,7 @@ public class GpxLayer extends AbstractVectorLayer {
 			for(int i=0; i<gpxDocument.wayPointCount(); i++) {
 				WayPoint wp = gpxDocument.getWayPoint(i);
 				Coordinate c = new Coordinate(wp.getLongitude(), wp.getLatitude());
-				Point p = GeoToolsMapFactory.getGeometryFactory().createPoint(c);
+				Point p = GeoToolsFactory.getGeometryFactory().createPoint(c);
 				featureBuilder.add(p);
 				featureBuilder.add(wp.getName());
 				featureBuilder.add(wp.getAltitude());
@@ -131,7 +131,7 @@ public class GpxLayer extends AbstractVectorLayer {
 						//LOG.info("GpxLayer.createTrackLayers(): creating feature for segment "+String.format("%d", j));
 						TrackSegment segment = track.getTrackSegment(j);
 						//LOG.info("GpxLayer.createTrackLayers(): segment has "+String.format("%d points", segment.size()));
-						LineString l = GeoToolsMapFactory.segmentToLinestringLonLat(segment);
+						LineString l = GeoToolsFactory.segmentToLinestringLonLat(segment);
 						featureBuilder.add(l);
 						featureBuilder.add(track.getName());
 						SimpleFeature feature = featureBuilder.buildFeature(null);
@@ -150,7 +150,7 @@ public class GpxLayer extends AbstractVectorLayer {
 	private SimpleFeatureType createWayPointFeatureType() {
 		SimpleFeatureTypeBuilder builder = new SimpleFeatureTypeBuilder();
         builder.setName("WayPoint");
-        builder.setCRS(GeoToolsMapFactory.getWGS84CRS()); // <- Coordinate reference system
+        builder.setCRS(GeoToolsFactory.getWGS84CRS()); // <- Coordinate reference system
 
         // add attributes in order
         builder.add("geom", Point.class);
@@ -164,7 +164,7 @@ public class GpxLayer extends AbstractVectorLayer {
 	private SimpleFeatureType createTrackFeatureType() {
 		SimpleFeatureTypeBuilder builder = new SimpleFeatureTypeBuilder();
         builder.setName("Track");
-        builder.setCRS(GeoToolsMapFactory.getWGS84CRS()); // <- Coordinate reference system
+        builder.setCRS(GeoToolsFactory.getWGS84CRS()); // <- Coordinate reference system
 
         // add attributes in order
         builder.add("geom", LineString.class);
@@ -177,7 +177,7 @@ public class GpxLayer extends AbstractVectorLayer {
 	private SimpleFeatureType createRouteFeatureType() {
 		SimpleFeatureTypeBuilder builder = new SimpleFeatureTypeBuilder();
         builder.setName("Route");
-        builder.setCRS(GeoToolsMapFactory.getWGS84CRS()); // <- Coordinate reference system
+        builder.setCRS(GeoToolsFactory.getWGS84CRS()); // <- Coordinate reference system
 
         // add attributes in order
         builder.add("geom", LineString.class);

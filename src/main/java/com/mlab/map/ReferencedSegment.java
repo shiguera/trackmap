@@ -10,7 +10,7 @@ import com.mlab.gpx.api.WayPoint;
 import com.mlab.gpx.impl.SimpleWayPoint;
 import com.mlab.gpx.impl.TrackSegment;
 import com.mlab.gpx.impl.util.Util;
-import com.mlab.map.factory.GeoToolsMapFactory;
+import com.mlab.map.factory.GeoToolsFactory;
 import com.vividsolutions.jts.geom.Coordinate;
 import com.vividsolutions.jts.geom.Geometry;
 import com.vividsolutions.jts.geom.LineString;
@@ -63,7 +63,7 @@ public class ReferencedSegment {
 			isValid=false;
 			return;
 		}		
-		lineString = GeoToolsMapFactory.segmentToLineStringUtm(segment);
+		lineString = GeoToolsFactory.segmentToLineStringUtm(segment);
 		if(lineString == null) {
 			LOG.error("ReferencedSegment() ERROR: Can't create utm lineString");
 			isValid=false;

@@ -25,7 +25,7 @@ public class WMSFactory {
 	        //System.out.println(url.getProtocol());
 	       	wms = new WebMapServer(url);        
 		} catch (Exception e) {
-			GeoToolsMapFactory.LOG.warn("WMSFactory.getProxyLayer() ERROR: can't create wms\n"+e.getMessage());
+			GeoToolsFactory.LOG.warn("WMSFactory.getProxyLayer() ERROR: can't create wms\n"+e.getMessage());
 			return null;
 		}
 	    WMSCapabilities capabilities = wms.getCapabilities();
@@ -54,7 +54,7 @@ public class WMSFactory {
 	       	wms = new WebMapServer(url);        
 	        System.out.println(wms.toString());
 		} catch (Exception e) {
-			GeoToolsMapFactory.LOG.warn("GeoToolsMapFactory.getGoogleLayer() ERROR: can't create wms\n"+e.getMessage());
+			GeoToolsFactory.LOG.warn("GeoToolsFactory.getGoogleLayer() ERROR: can't create wms\n"+e.getMessage());
 			return null;
 		}
 	    WMSCapabilities capabilities = wms.getCapabilities();

@@ -7,7 +7,7 @@ import org.geotools.map.FeatureLayer;
 import org.geotools.map.Layer;
 import org.geotools.styling.Style;
 
-import com.mlab.map.factory.GeoToolsMapFactory;
+import com.mlab.map.factory.GeoToolsFactory;
 import com.mlab.map.factory.StyleFac;
 import com.vividsolutions.jts.geom.LineString;
 
@@ -21,10 +21,10 @@ public class LineStringLayer extends AbstractVectorLayer {
 		SimpleFeatureCollection coll=null;
 		isPointLayer = pointlayer;
 		if(pointlayer) {
-			coll = GeoToolsMapFactory.lineStringToPointFeatureCollection(ls);
+			coll = GeoToolsFactory.lineStringToPointFeatureCollection(ls);
 			this.style = StyleFac.createPointStyle(Color.BLUE, 2);
 		} else {
-			coll = GeoToolsMapFactory.lineStringToLineFeatureCollection(ls);
+			coll = GeoToolsFactory.lineStringToLineFeatureCollection(ls);
 			this.style = StyleFac.createLineStyle(Color.BLUE, 2);
 		}
 		this.layer = new FeatureLayer(coll, style);

@@ -4,7 +4,7 @@ import java.io.File;
 
 import org.geotools.map.Layer;
 
-import com.mlab.map.factory.GeoToolsMapFactory;
+import com.mlab.map.factory.GeoToolsFactory;
 
 public class TifLayer extends AbstractRasterLayer {
 
@@ -13,14 +13,14 @@ public class TifLayer extends AbstractRasterLayer {
 	
 	public TifLayer(File file) {
 		this.url = file.getPath();
-		this.layer = GeoToolsMapFactory.readRasterLayer(file);
+		this.layer = GeoToolsFactory.readRasterLayer(file);
 	}
 
 	public TifLayer(File file, boolean colorbands) {
 		if(colorbands) {
-			this.layer = GeoToolsMapFactory.readRasterColorLayer(file);
+			this.layer = GeoToolsFactory.readRasterColorLayer(file);
 		} else {
-			this.layer = GeoToolsMapFactory.readRasterLayer(file);
+			this.layer = GeoToolsFactory.readRasterLayer(file);
 		}	
 	}
 	@Override
