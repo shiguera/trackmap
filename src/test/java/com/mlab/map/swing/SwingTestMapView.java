@@ -1,4 +1,4 @@
-package com.mlab.map;
+package com.mlab.map.swing;
 
 
 import java.awt.Color;
@@ -15,6 +15,8 @@ import org.geotools.map.Layer;
 import org.geotools.map.MapViewport;
 import org.geotools.styling.Style;
 
+import com.mlab.map.TrackMap;
+import com.mlab.map.TrackMapModel;
 import com.mlab.map.factory.GeoToolsFactory;
 import com.mlab.map.factory.StyleFac;
 import com.mlab.map.layer.ShpLayer;
@@ -91,7 +93,7 @@ public class SwingTestMapView {
 
 		System.out.println(layerEsri.getLayer().getBounds().getCoordinateReferenceSystem().getName().toString());
 		trackMap.addVectorLayer(layerEsri);
-		Assert.assertEquals(1, trackMap.mapModel.getLayerCount());
+		Assert.assertEquals(1, trackMap.getMapModel().getLayerCount());
 	}
 	private void addVectorLayerWithoutPrjFile() {
 		File file = new File(ClassLoader.getSystemResource("Distrtitos_4326.shp").getFile());
@@ -105,7 +107,7 @@ public class SwingTestMapView {
 		System.out.println(layerWithoutcrs.getLayer());
 		//Assert.assertNotNull(layer.getLayer().getBounds().getCoordinateReferenceSystem());
 		trackMap.addVectorLayer(layerWithoutcrs);
-		Assert.assertEquals(2, trackMap.mapModel.getLayerCount());
+		Assert.assertEquals(2, trackMap.getMapModel().getLayerCount());
 	}
 	private void addVectorLayer4326() {
 		File file = new File(ClassLoader.getSystemResource("Distrtitos_4326.shp").getFile());

@@ -58,7 +58,7 @@ public class TrackMap implements ActionListener {
 		mapModel.setBaseLayerVisible(visible);
 	}
 	public void setDefaultBaseLayer() {
-		mapModel.setBaseLayer(WMSFactory.getIGNLayer());
+		mapModel.setBaseLayer(WMSFactory.getIGNBaseLayer());
 		mapModel.getViewPort().setBounds(mapModel.getMaxBounds());
 	}
 	// VectorLayers

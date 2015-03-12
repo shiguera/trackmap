@@ -33,7 +33,7 @@ public class TestTrackMap {
 		TrackMap map = new TrackMap(model, null);
 		Assert.assertNotNull(map);
 		
-		WMSLayer layer = WMSFactory.getIGNLayer();
+		WMSLayer layer = WMSFactory.getIGNBaseLayer();
 		boolean result = map.setBaseLayer(layer);
 		Assert.assertTrue(result);
 		
@@ -47,7 +47,7 @@ public class TestTrackMap {
 		TrackMap map = new TrackMap(model, null);
 		Assert.assertNotNull(map);
 		
-		WMSLayer orglayer = WMSFactory.getIGNLayer();
+		WMSLayer orglayer = WMSFactory.getIGNBaseLayer();
 		ReferencedEnvelope orgenv = orglayer.getBounds();
 		Assert.assertTrue(map.setBaseLayer(orglayer));
 		

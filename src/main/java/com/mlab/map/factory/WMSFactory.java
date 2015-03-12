@@ -34,14 +34,14 @@ public class WMSFactory {
 		WMSLayer displayLayer = new WMSLayer(wms, list[layernum]);
 	    return displayLayer;
 	}
-	public static WMSLayer getOSMLayer() {
+	public static WMSLayer getProxyOSMLayer() {
 		return WMSFactory.getProxyLayer(0);
 	}
-	public static WMSLayer getIGNBaseLayer() {
+	public static WMSLayer getProxyIGNBaseLayer() {
 		return WMSFactory.getProxyLayer(1);
 		
 	}
-	public static WMSLayer getPNOALayer() {
+	public static WMSLayer getProxyPNOALayer() {
 		return WMSFactory.getProxyLayer(2);		
 	}
 
@@ -65,7 +65,7 @@ public class WMSFactory {
 		WMSLayer displayLayer = new WMSLayer(wms, list[0]);
 	    return displayLayer;
 	}
-	public static WMSLayer getIGNLayer() {
+	public static WMSLayer getIGNBaseLayer() {
 		URL url = null;
 		WebMapServer wms = null;
 		try {

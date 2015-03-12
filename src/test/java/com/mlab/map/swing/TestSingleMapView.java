@@ -1,4 +1,4 @@
-package com.mlab.map;
+package com.mlab.map.swing;
 
 import java.awt.Component;
 
@@ -8,6 +8,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.mlab.map.TrackMapModel;
 import com.mlab.map.swing.MapToolBar;
 import com.mlab.map.swing.MapToolBarImpl;
 import com.mlab.map.swing.MapView;
