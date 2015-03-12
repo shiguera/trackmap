@@ -18,6 +18,10 @@ import org.geotools.styling.Style;
 import com.mlab.map.factory.GeoToolsFactory;
 import com.mlab.map.factory.StyleFac;
 import com.mlab.map.layer.ShpLayer;
+import com.mlab.map.swing.MapToolBar;
+import com.mlab.map.swing.MapToolBarImpl;
+import com.mlab.map.swing.MapView;
+import com.mlab.map.swing.SingleMapView;
 
 public class SwingTestMapView {
 	

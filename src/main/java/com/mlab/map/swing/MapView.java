@@ -1,4 +1,4 @@
-package com.mlab.map;
+package com.mlab.map.swing;
 
 import javax.swing.JButton;
 import javax.swing.JPanel;

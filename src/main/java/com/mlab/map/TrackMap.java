@@ -7,7 +7,9 @@ import java.io.File;
 import org.apache.log4j.Logger;
 import org.geotools.geometry.DirectPosition2D;
 import org.geotools.geometry.Envelope2D;
+import org.geotools.map.Layer;
 import org.geotools.map.MapViewport;
+import org.geotools.map.WMSLayer;
 import org.geotools.styling.Style;
 import org.opengis.geometry.DirectPosition;
 import org.opengis.referencing.operation.MathTransform;
@@ -19,6 +21,7 @@ import com.mlab.map.factory.GeoToolsFactory;
 import com.mlab.map.factory.WMSFactory;
 import com.mlab.map.layer.GpxLayer;
 import com.mlab.map.layer.ShpLayer;
+import com.mlab.map.swing.MapView;
 
 public class TrackMap implements ActionListener {
 	private final Logger LOG = Logger.getLogger(TrackMap.class);
@@ -45,6 +48,12 @@ public class TrackMap implements ActionListener {
 	
 
 	// BaseLayer
+	public Layer getBaseLayer() {
+		return mapModel.baseLayer;
+	}
+	public boolean setBaseLayer(Layer layer) {
+		return mapModel.setBaseLayer(layer);
+	}
 	public void setBaseLayerVisible(boolean visible) {
 		mapModel.setBaseLayerVisible(visible);
 	}

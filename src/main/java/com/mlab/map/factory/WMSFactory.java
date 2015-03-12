@@ -78,9 +78,9 @@ public class WMSFactory {
 		}
 	    WMSCapabilities capabilities = wms.getCapabilities();
 	    org.geotools.data.ows.Layer[] list = WMSUtils.getNamedLayers(capabilities);
-	    for(int i=0; i<list.length; i++) {
-	    	System.out.println("layer "+i+": "+list[i].getName());
-	    }
+//	    for(int i=0; i<list.length; i++) {
+//	    	System.out.println("layer "+i+": "+list[i].getName());
+//	    }
 		WMSLayer displayLayer = new WMSLayer(wms, list[24]);
 	    return displayLayer;
 	}

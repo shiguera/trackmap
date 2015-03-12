@@ -1,4 +1,4 @@
-package com.mlab.map;
+package com.mlab.map.swing;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

@@ -8,6 +8,11 @@ import org.apache.log4j.PropertyConfigurator;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.mlab.map.swing.MapToolBar;
+import com.mlab.map.swing.MapToolBarImpl;
+import com.mlab.map.swing.MapView;
+import com.mlab.map.swing.SingleMapView;
+
 public class TestSingleMapView {
 	
 	static TrackMapModel model;
