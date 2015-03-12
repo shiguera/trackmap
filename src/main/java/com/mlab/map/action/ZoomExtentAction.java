@@ -10,7 +10,7 @@ import com.mlab.map.TrackMap;
 public class ZoomExtentAction extends MapAction {
 	private final Logger LOG = Logger.getLogger(ZoomExtentAction.class);
 	
-	final static String TEXT = "Zoom extent";
+	final static String TEXT = "";
 	final static String ACTION_COMMAND = "ZOOM_EXTENT";
 	final static String ICON_NAME = "spain.png";
 	final static String DESCRIPTION = "Zoom extent";

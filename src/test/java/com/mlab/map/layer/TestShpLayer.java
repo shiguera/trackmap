@@ -23,8 +23,8 @@ public class TestShpLayer {
 		System.out.println("TestSetName()");
 		ShpLayer sampleLayer1 = loadTestLayer();
 		System.out.println("layerName="+sampleLayer1.getName());
-		Assert.assertEquals("test.shp", sampleLayer1.getName());
-		Assert.assertEquals("test.shp", sampleLayer1.getLayer().getTitle());
+		Assert.assertEquals("testline.shp", sampleLayer1.getName());
+		Assert.assertEquals("testline.shp", sampleLayer1.getLayer().getTitle());
 		
 		System.out.println("OK");
 		
@@ -38,11 +38,10 @@ public class TestShpLayer {
 		System.out.println(layer.getLayer().getBounds().getLowerCorner());
 		System.out.println(layer.getLayer().getBounds().getUpperCorner());
 		Assert.assertEquals("EPSG:WGS 84", layer.getLayer().getBounds().getCoordinateReferenceSystem().getName().toString());
-		Assert.fail();
 	}
 	
 	private ShpLayer loadTestLayer() {
-		String layerUrl = "test.shp";
+		String layerUrl = "testline.shp";
 		URL url = ClassLoader.getSystemResource(layerUrl);
 		File file = new File(url.getPath());
 		Assert.assertNotNull(file);

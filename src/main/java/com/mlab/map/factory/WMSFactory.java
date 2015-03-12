@@ -65,6 +65,24 @@ public class WMSFactory {
 		WMSLayer displayLayer = new WMSLayer(wms, list[0]);
 	    return displayLayer;
 	}
-
+	public static WMSLayer getIGNLayer() {
+		URL url = null;
+		WebMapServer wms = null;
+		try {
+	        url = new URL("http://www.ign.es/wms-inspire/ign-base?SERVICE=WMS&");
+	       	wms = new WebMapServer(url);        
+	        System.out.println(wms.toString());
+		} catch (Exception e) {
+			GeoToolsFactory.LOG.warn("GeoToolsFactory.getIGNLayer() ERROR: can't create wms\n"+e.getMessage());
+			return null;
+		}
+	    WMSCapabilities capabilities = wms.getCapabilities();
+	    org.geotools.data.ows.Layer[] list = WMSUtils.getNamedLayers(capabilities);
+	    for(int i=0; i<list.length; i++) {
+	    	System.out.println("layer "+i+": "+list[i].getName());
+	    }
+		WMSLayer displayLayer = new WMSLayer(wms, list[24]);
+	    return displayLayer;
+	}
 
 }

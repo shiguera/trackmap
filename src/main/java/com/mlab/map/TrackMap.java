@@ -5,11 +5,16 @@ import java.awt.event.ActionListener;
 import java.io.File;
 
 import org.apache.log4j.Logger;
-import org.geotools.map.Layer;
+import org.geotools.geometry.DirectPosition2D;
+import org.geotools.geometry.Envelope2D;
 import org.geotools.map.MapViewport;
 import org.geotools.styling.Style;
+import org.opengis.geometry.DirectPosition;
+import org.opengis.referencing.operation.MathTransform;
 
 import com.mlab.gpx.api.WayPoint;
+import com.mlab.gpx.impl.GpxEnvelope;
+import com.mlab.gpx.impl.TrackSegment;
 import com.mlab.map.factory.GeoToolsFactory;
 import com.mlab.map.factory.WMSFactory;
 import com.mlab.map.layer.GpxLayer;
@@ -20,14 +25,17 @@ public class TrackMap implements ActionListener {
 	
 	protected TrackMapModel mapModel;
 	protected MapView view;
+	protected GeoToolsFactory factory;
 	
 	public TrackMap(TrackMapModel model, MapView view) {
 		this.mapModel = model;
 		this.view = view;
+		
+		factory = new GeoToolsFactory();
 	}
 	
 	public TrackMap(TrackMapModel model) {
-		this.mapModel = model;		
+		this(model, null);		
 	}
 
 	public TrackMapModel getMapModel() {
@@ -41,7 +49,7 @@ public class TrackMap implements ActionListener {
 		mapModel.setBaseLayerVisible(visible);
 	}
 	public void setDefaultBaseLayer() {
-		mapModel.setBaseLayer(WMSFactory.getProxyLayer(2));
+		mapModel.setBaseLayer(WMSFactory.getIGNLayer());
 		mapModel.getViewPort().setBounds(mapModel.getMaxBounds());
 	}
 	// VectorLayers
@@ -122,11 +130,41 @@ public class TrackMap implements ActionListener {
 
 	public void zoomExtent() {
 		LOG.debug("zoomExtent()");
-		mapModel.setViewPort(new MapViewport(mapModel.getMaxBounds()));
+		if(view != null) {
+			view.getJMapPane().reset();			
+		}
 	}
 
 	public void zoomTrack() {
-		LOG.debug("zoomTrack() TODO not implemented");
+		LOG.debug("zoomTrack()");
+		GpxLayer trackLayer = mapModel.getTrackLayer();
+		if(trackLayer!=null && trackLayer.getFirstTrackSegment()!=null) {
+			TrackSegment segment = trackLayer.getFirstTrackSegment();
+			// Calcular diagonal del track
+			GpxEnvelope env = segment.getEnvelope();
+			DirectPosition pos1 = new DirectPosition2D(env.getMinLon(), env.getMinLat());
+			DirectPosition pos2 = new DirectPosition2D(env.getMaxLon(), env.getMaxLat());
+			DirectPosition ppos1=null, ppos2=null;
+			MathTransform tr = GeoToolsFactory.generateTransformFromWGS84(mapModel.getCoordinateReferenceSystem());
+			if (tr==null) {
+				return;
+			}
+			try {
+				ppos1 = tr.transform(pos1, ppos1);
+				ppos2 = tr.transform(pos2, ppos2);
+			} catch (Exception e) {
+				LOG.warn("zoomTrack(): Can't reproject point "+e.getMessage());
+				return;
+			} 
+			
+			Envelope2D env2 = new Envelope2D();
+			env2.setFrameFromDiagonal(ppos1.getOrdinate(0), ppos1.getOrdinate(1), 
+					ppos2.getOrdinate(0), ppos2.getOrdinate(1));
+			if(view != null) {
+				view.getJMapPane().setDisplayArea(env2);
+				view.refreshMap();
+			}			
+		}
 	}
 	
 	public void release() {

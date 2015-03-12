@@ -93,5 +93,13 @@ public class SingleMapView implements MapView {
 	public MapToolBar getMapToolBar() {
 		return toolBar;
 	}
+	@Override
+	public void setMapPanelSize(int width, int height) {
+		this.jmapPane.setPreferredSize(new Dimension(width, height));
+	}
+	@Override
+	public void refreshMap() {
+		jmapPane.setDisplayArea(jmapPane.getDisplayArea());		
+	}
 
 }
