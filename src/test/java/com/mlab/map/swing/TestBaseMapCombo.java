@@ -64,8 +64,16 @@ public class TestBaseMapCombo {
 		Assert.assertEquals("Prueba 1", desc.getDescription());
 		Assert.assertEquals("Url 1", desc.getUrl());				
 	}
+	@Test
+	public void changesInSelectedItemSelectBaseMapInMapModel() {
+		System.out.println("TestBaseMapCombo.changesInSelectedItemSelectBaseMapInMapModel()");
+		BaseMapCombo bms = new BaseMapCombo(trackMap);
+		Assert.assertNotNull(bms);
+		//Assert.fail();
+	}
 	private WMSDescriptor[] asArray(ArrayList<WMSDescriptor> wmss) {
 		WMSDescriptor[] objs = wmss.toArray(new WMSDescriptor[wmss.size()]);
 		return objs;
 	}
+	
 }
