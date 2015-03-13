@@ -3,10 +3,12 @@ package com.mlab.map.swing;
 public class WMSDescriptor {
 	private String description;
 	private String url;
+	private int layerNum;
 	
-	public WMSDescriptor(String desc, String url) {
+	public WMSDescriptor(String desc, String url, int layernum) {
 		this.description = desc;
 		this.url = url;
+		this.setLayerNum(layernum);
 	}
 
 	public String getDescription() {
@@ -23,6 +25,14 @@ public class WMSDescriptor {
 
 	public void setUrl(String url) {
 		this.url = url;
+	}
+
+	public int getLayerNum() {
+		return layerNum;
+	}
+
+	public void setLayerNum(int layerNum) {
+		this.layerNum = layerNum;
 	}
 	
 
