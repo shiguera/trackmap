@@ -1,5 +1,6 @@
 package com.mlab.map.swing;
 
+import java.awt.Component;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -65,6 +66,14 @@ public class MapToolBarImpl extends JToolBar implements MapToolBar {
 	@Override
 	public JToolBar getComponent() {
 		return this;
+	}
+
+	@Override
+	public void addComponent(Component component) {
+		if(component.getClass().isInstance(JButton.class)) {
+			this.btns.add((JButton)component);
+		}
+		add(component);
 	}
 
 }

@@ -13,4 +13,5 @@ public interface MapToolBar {
 	void addButton(JButton button);
 	int getButtonsCount();
 	JButton getButton(int index);
+	void addComponent(Component component);
 }

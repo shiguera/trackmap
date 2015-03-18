@@ -51,10 +51,11 @@ public class SwingTestMapView {
 		MapView view = new SingleMapView(mapModel.getMapContent());
 		
 		MapToolBar toolbar = new MapToolBarImpl();
-		toolbar.setDefaultButtons(view.getJMapPane());
 		
 		BaseMapCombo combo = new BaseMapCombo(trackMap);
 		combo.setDefaultMaps();
+		toolbar.addComponent(combo);
+		toolbar.setDefaultButtons(view.getJMapPane());
 		
 		view.setMapToolBar(toolbar);
 		
@@ -97,7 +98,7 @@ public class SwingTestMapView {
 
 		System.out.println(layerEsri.getLayer().getBounds().getCoordinateReferenceSystem().getName().toString());
 		trackMap.addVectorLayer(layerEsri);
-		Assert.assertEquals(1, trackMap.getMapModel().getLayerCount());
+		Assert.assertEquals(2, trackMap.getMapModel().getLayerCount());
 	}
 	private void addVectorLayerWithoutPrjFile() {
 		File file = new File(ClassLoader.getSystemResource("Distrtitos_4326.shp").getFile());
@@ -111,7 +112,7 @@ public class SwingTestMapView {
 		System.out.println(layerWithoutcrs.getLayer());
 		//Assert.assertNotNull(layer.getLayer().getBounds().getCoordinateReferenceSystem());
 		trackMap.addVectorLayer(layerWithoutcrs);
-		Assert.assertEquals(2, trackMap.getMapModel().getLayerCount());
+		Assert.assertEquals(3, trackMap.getMapModel().getLayerCount());
 	}
 	private void addVectorLayer4326() {
 		File file = new File(ClassLoader.getSystemResource("Distrtitos_4326.shp").getFile());

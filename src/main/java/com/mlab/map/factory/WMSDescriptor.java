@@ -35,5 +35,8 @@ public class WMSDescriptor {
 		this.layerNum = layerNum;
 	}
 	
-
+	@Override
+	public String toString() {
+		return description;
+	}
 }
