@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.JComboBox;
 
 import com.mlab.map.TrackMap;
+import com.mlab.map.factory.WMSDescriptor;
 
 public class BaseMapCombo extends JComboBox {
 	

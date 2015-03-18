@@ -10,6 +10,7 @@ import org.junit.Test;
 
 import com.mlab.map.TrackMap;
 import com.mlab.map.TrackMapModel;
+import com.mlab.map.factory.WMSDescriptor;
 
 public class TestBaseMapCombo {
 

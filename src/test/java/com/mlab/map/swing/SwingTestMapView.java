@@ -52,6 +52,9 @@ public class SwingTestMapView {
 		
 		MapToolBar toolbar = new MapToolBarImpl();
 		toolbar.setDefaultButtons(view.getJMapPane());
+		
+		
+		
 		view.setMapToolBar(toolbar);
 		
 		addVectorLayerEsriCode();

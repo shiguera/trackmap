@@ -1,4 +1,4 @@
-package com.mlab.map.swing;
+package com.mlab.map.factory;
 
 public class WMSDescriptor {
 	private String description;

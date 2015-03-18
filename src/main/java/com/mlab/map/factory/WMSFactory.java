@@ -11,7 +11,7 @@ import org.geotools.map.WMSLayer;
 
 public class WMSFactory {
 
-	private final Logger LOG = Logger.getLogger(WMSFactory.class);
+	private final static Logger LOG = Logger.getLogger(WMSFactory.class);
 	
 	// WMSLayers
 	public static WMSLayer getProxyLayer(int layernum) {
@@ -84,5 +84,20 @@ public class WMSFactory {
 		WMSLayer displayLayer = new WMSLayer(wms, list[24]);
 	    return displayLayer;
 	}
-
+	public static WMSLayer getWMSLayer(WMSDescriptor wmsDescriptor) {
+		URL url = null;
+		WebMapServer wms = null;
+		try {
+	        url = new URL(wmsDescriptor.getUrl());
+	       	wms = new WebMapServer(url);        
+	        System.out.println(wms.toString());
+		} catch (Exception e) {
+			LOG.warn("WMSFactory.getIGNLayer() ERROR: can't create wms\n"+e.getMessage());
+			return null;
+		}
+	    WMSCapabilities capabilities = wms.getCapabilities();
+	    org.geotools.data.ows.Layer[] list = WMSUtils.getNamedLayers(capabilities);
+		WMSLayer displayLayer = new WMSLayer(wms, list[24]);
+	    return displayLayer;
+	}
 }
