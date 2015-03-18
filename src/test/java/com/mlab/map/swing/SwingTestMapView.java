@@ -53,7 +53,8 @@ public class SwingTestMapView {
 		MapToolBar toolbar = new MapToolBarImpl();
 		toolbar.setDefaultButtons(view.getJMapPane());
 		
-		
+		BaseMapCombo combo = new BaseMapCombo(trackMap);
+		combo.setDefaultMaps();
 		
 		view.setMapToolBar(toolbar);
 		

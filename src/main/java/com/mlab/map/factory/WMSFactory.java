@@ -90,14 +90,14 @@ public class WMSFactory {
 		try {
 	        url = new URL(wmsDescriptor.getUrl());
 	       	wms = new WebMapServer(url);        
-	        System.out.println(wms.toString());
+	        //System.out.println(wms.toString());
 		} catch (Exception e) {
-			LOG.warn("WMSFactory.getIGNLayer() ERROR: can't create wms\n"+e.getMessage());
+			LOG.warn("WMSFactory.getWMSLayer() ERROR: can't create wms\n"+e.getMessage());
 			return null;
 		}
 	    WMSCapabilities capabilities = wms.getCapabilities();
 	    org.geotools.data.ows.Layer[] list = WMSUtils.getNamedLayers(capabilities);
-		WMSLayer displayLayer = new WMSLayer(wms, list[24]);
+		WMSLayer displayLayer = new WMSLayer(wms, list[wmsDescriptor.getLayerNum()]);
 	    return displayLayer;
 	}
 }
