@@ -8,10 +8,11 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JToolBar;
 
-import org.geotools.map.MapContent;
 import org.geotools.swing.JMapPane;
+
+import com.mlab.map.TrackMapModel;
+import com.mlab.patterns.Observable;
 
 public class SingleMapView implements MapView {
 	private final int DEFAULT_MAPPANE_WIDTH = 600;
@@ -19,6 +20,7 @@ public class SingleMapView implements MapView {
 	private final int BTN_WIDTH = 24;
 	private final int BTN_HEIGHT = 24;
 	
+	TrackMapModel model;
 	private JPanel mainPanel;
 	private JMapPane jmapPane;
 	private MapToolBar toolBar;
@@ -28,8 +30,9 @@ public class SingleMapView implements MapView {
 	
 	private boolean isRendering;
 	
-	public SingleMapView(MapContent mapcontent) {
-		jmapPane = new JMapPane(mapcontent);
+	public SingleMapView(TrackMapModel mapmodel) {
+		this.model = mapmodel; 
+		jmapPane = new JMapPane(mapmodel.getMapContent());
 		createLayout();
 	}
 	private void createLayout() {
@@ -100,6 +103,14 @@ public class SingleMapView implements MapView {
 	@Override
 	public void refreshMap() {
 		jmapPane.setDisplayArea(jmapPane.getDisplayArea());		
+	}
+	@Override
+	public TrackMapModel getObservable() {
+		return model;
+	}
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub		
 	}
 
 }

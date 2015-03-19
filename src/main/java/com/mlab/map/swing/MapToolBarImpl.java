@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JToolBar;
 
@@ -13,9 +15,12 @@ import org.geotools.swing.action.PanAction;
 import org.geotools.swing.action.ZoomInAction;
 import org.geotools.swing.action.ZoomOutAction;
 
+import com.mlab.map.TrackMap;
+
 public class MapToolBarImpl extends JToolBar implements MapToolBar {
 	private static final long serialVersionUID = 1L;
 
+	
 	protected MapView mapView;
 	
 	List<JButton> btns;
@@ -23,8 +28,10 @@ public class MapToolBarImpl extends JToolBar implements MapToolBar {
 	public MapToolBarImpl() {
 		super();
 		setFloatable(false);
+		setRollover(true);
 		setBorder(BorderFactory.createEmptyBorder(3, 5, 3, 5));
 		btns = new ArrayList<JButton>();
+		
 	}
 
 	private JButton createZoomInButton(JMapPane mappane) {
@@ -47,7 +54,14 @@ public class MapToolBarImpl extends JToolBar implements MapToolBar {
 	}
 
 	@Override
-	public void setDefaultButtons(JMapPane mappane) {
+	public void setDefaultButtons(TrackMap map, JMapPane mappane) {
+		BaseMapCombo combo = new BaseMapCombo(map);
+		combo.setDefaultMaps();
+		addComponent(combo);
+		addSeparator();
+		StatusBarLabelSRS srslabel = new StatusBarLabelSRS(map.getMapModel());
+		addComponent(srslabel);
+		addComponent(Box.createVerticalStrut(10));
 		addButton(createZoomInButton(mappane));
 		addButton(createZoomOutButton(mappane));
 		addButton(createPanButton(mappane));		
@@ -73,7 +87,7 @@ public class MapToolBarImpl extends JToolBar implements MapToolBar {
 		if(component.getClass().isInstance(JButton.class)) {
 			this.btns.add((JButton)component);
 		}
-		add(component);
+		add(component, CENTER_ALIGNMENT);
 	}
 
 }

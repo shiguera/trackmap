@@ -5,7 +5,9 @@ import javax.swing.JPanel;
 
 import org.geotools.swing.JMapPane;
 
-public interface MapView {
+import com.mlab.patterns.Observer;
+
+public interface MapView extends Observer {
 	
 	JPanel getMainPanel();
 	

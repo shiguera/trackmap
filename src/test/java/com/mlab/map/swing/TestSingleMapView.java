@@ -8,11 +8,8 @@ import org.apache.log4j.PropertyConfigurator;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.mlab.map.TrackMap;
 import com.mlab.map.TrackMapModel;
-import com.mlab.map.swing.MapToolBar;
-import com.mlab.map.swing.MapToolBarImpl;
-import com.mlab.map.swing.MapView;
-import com.mlab.map.swing.SingleMapView;
 
 public class TestSingleMapView {
 	
@@ -28,7 +25,7 @@ public class TestSingleMapView {
 	@Test
 	public void mapViewAndComponentsAreNotNullWithMapContentNull() {
 		System.out.println("TestSingleMapView.mapViewAndComponentsAreNotNullWithMapContentNull()");
-		MapView view = new SingleMapView(null);
+		MapView view = new SingleMapView(model);
 		Assert.assertNotNull(view);
 		Assert.assertNotNull(view.getMainPanel());
 		Assert.assertNotNull(view.getMapPanel());
@@ -37,18 +34,18 @@ public class TestSingleMapView {
 	@Test
 	public void toolBarIsNotNullAfterAdded() {
 		System.out.println("TestSingleMapView.toolBarIsNotNullAfterAdded()");
-		MapView view = new SingleMapView(model.getMapContent());
+		MapView view = new SingleMapView(model);
 		MapToolBar toolbar = new MapToolBarImpl();
-		toolbar.setDefaultButtons(view.getJMapPane());
+		toolbar.setDefaultButtons(new TrackMap(model), view.getJMapPane());
 		view.setMapToolBar(toolbar);
 		Assert.assertNotNull(view.getMapToolBar());
 	}
 	@Test
 	public void toolBarIsAComponentOfMainPanelAfterAdded() {
 		System.out.println("TestSingleMapView.toolBarIsAComponentOfMainPanelAfterAdded()");
-		MapView view = new SingleMapView(model.getMapContent());
+		MapView view = new SingleMapView(model);
 		MapToolBar toolbar = new MapToolBarImpl();
-		toolbar.setDefaultButtons(view.getJMapPane());
+		toolbar.setDefaultButtons(new TrackMap(model), view.getJMapPane());
 		view.setMapToolBar(toolbar);
 		boolean result = false;
 		for(Component c: view.getMainPanel().getComponents()) {

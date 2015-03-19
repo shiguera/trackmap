@@ -48,14 +48,11 @@ public class SwingTestMapView {
 		TrackMapModel mapModel = new TrackMapModel();
 		trackMap = new TrackMap(mapModel);
 
-		MapView view = new SingleMapView(mapModel.getMapContent());
+		MapView view = new SingleMapView(mapModel);
 		
 		MapToolBar toolbar = new MapToolBarImpl();
 		
-		BaseMapCombo combo = new BaseMapCombo(trackMap);
-		combo.setDefaultMaps();
-		toolbar.addComponent(combo);
-		toolbar.setDefaultButtons(view.getJMapPane());
+		toolbar.setDefaultButtons(trackMap, view.getJMapPane());
 		
 		view.setMapToolBar(toolbar);
 		

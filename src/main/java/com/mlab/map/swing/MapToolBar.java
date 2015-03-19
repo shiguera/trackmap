@@ -6,10 +6,12 @@ import javax.swing.JButton;
 
 import org.geotools.swing.JMapPane;
 
+import com.mlab.map.TrackMap;
+
 public interface MapToolBar {
 
 	Component getComponent();
-	void setDefaultButtons(JMapPane mappane);
+	void setDefaultButtons(TrackMap map, JMapPane mappane);
 	void addButton(JButton button);
 	int getButtonsCount();
 	JButton getButton(int index);

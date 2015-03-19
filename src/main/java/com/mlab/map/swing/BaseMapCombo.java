@@ -27,7 +27,7 @@ public class BaseMapCombo extends JComboBox {
 	}
 	private void init() {
 		this.addActionListener(this);
-		this.setPreferredSize(new Dimension(100,22));
+		//this.setPreferredSize(new Dimension(100,18));
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {

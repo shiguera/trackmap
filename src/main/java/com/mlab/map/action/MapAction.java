@@ -10,8 +10,8 @@ import javax.swing.ImageIcon;
 
 public class MapAction extends AbstractAction {
 	private static final long serialVersionUID = 1L;
-	public final static int LARGE_ICON_WIDTH = 24;
-	public final static int LARGE_ICON_HEIGHT = 24;
+	public final static int LARGE_ICON_WIDTH = 22;
+	public final static int LARGE_ICON_HEIGHT = 22;
 	public final static int SMALL_ICON_WIDTH = 18;
 	public final static int SMALL_ICON_HEIGHT = 18;
 	
