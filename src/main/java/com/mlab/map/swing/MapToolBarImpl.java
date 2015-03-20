@@ -59,9 +59,6 @@ public class MapToolBarImpl extends JToolBar implements MapToolBar {
 		combo.setDefaultMaps();
 		addComponent(combo);
 		addSeparator();
-		StatusBarLabelSRS srslabel = new StatusBarLabelSRS(map.getMapModel());
-		addComponent(srslabel);
-		addComponent(Box.createVerticalStrut(10));
 		addButton(createZoomInButton(mappane));
 		addButton(createZoomOutButton(mappane));
 		addButton(createPanButton(mappane));		

@@ -25,7 +25,7 @@ public class SingleMapView implements MapView {
 	private JMapPane jmapPane;
 	private MapToolBar toolBar;
 	
-	private JPanel statusBar;
+	private StatusBar statusBar;
 	private JLabel lblMsg;
 	
 	private boolean isRendering;
@@ -44,12 +44,7 @@ public class SingleMapView implements MapView {
 		jmapPane.setPreferredSize(new Dimension(DEFAULT_MAPPANE_WIDTH, DEFAULT_MAPPANE_HEIGHT));
 		mainPanel.add(jmapPane, BorderLayout.CENTER);
 
-		statusBar = new JPanel();
-		statusBar.setBackground(Color.GREEN);
-		statusBar.setBorder(BorderFactory.createEtchedBorder());
-		lblMsg = new JLabel("Test");
-		lblMsg.setBackground(Color.LIGHT_GRAY);
-		statusBar.add(lblMsg);
+		statusBar = new StatusBar(model, jmapPane);
 		mainPanel.add(statusBar, BorderLayout.SOUTH);
 		
 	}
