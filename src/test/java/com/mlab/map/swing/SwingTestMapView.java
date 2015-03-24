@@ -46,15 +46,15 @@ public class SwingTestMapView {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		TrackMapModel mapModel = new TrackMapModel();
-		trackMap = new TrackMap(mapModel);
-
 		MapView view = new SingleMapView(mapModel);
-		
+		trackMap = new TrackMap(mapModel, view);
+
 		MapToolBar toolbar = new MapToolBarImpl();
 		
 		toolbar.setDefaultButtons(trackMap, view.getJMapPane());
 		
 		view.setMapToolBar(toolbar);
+		
 		
 		addVectorLayerEsriCode();
 		addVectorLayerWithoutPrjFile();

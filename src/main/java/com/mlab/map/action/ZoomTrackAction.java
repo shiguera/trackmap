@@ -7,24 +7,24 @@ import org.apache.log4j.Logger;
 import com.mlab.map.TrackMap;
 
 
-public class ZoomExtentAction extends MapAction {
-	private final Logger LOG = Logger.getLogger(ZoomExtentAction.class);
+public class ZoomTrackAction extends MapAction {
+	private final Logger LOG = Logger.getLogger(ZoomTrackAction.class);
 	
 	final static String TEXT = "";
-	final static String ACTION_COMMAND = "ZOOM_EXTENT";
-	final static String ICON_NAME = "globe_32.png";
-	final static String DESCRIPTION = "Zoom extent";
+	final static String ACTION_COMMAND = "ZOOM_TRACK";
+	final static String ICON_NAME = "track.png";
+	final static String DESCRIPTION = "Zoom track";
 	
 	TrackMap controller;
 	
-	public ZoomExtentAction(TrackMap controller) {
+	public ZoomTrackAction(TrackMap controller) {
 		super(controller, TEXT, ACTION_COMMAND, ICON_NAME, DESCRIPTION);
 		this.controller = controller;
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		LOG.debug("ZoomExtentAction.actionPerformed()");
-		controller.zoomExtent();
+		controller.zoomTrack();
 	}
 
 }

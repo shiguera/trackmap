@@ -34,6 +34,7 @@ public class TestTrackMap {
 		Assert.assertNotNull(map);
 		
 		WMSLayer layer = WMSFactory.getIGNBaseLayer();
+		Assert.assertNotNull(layer);
 		boolean result = map.setBaseLayer(layer);
 		Assert.assertTrue(result);
 		

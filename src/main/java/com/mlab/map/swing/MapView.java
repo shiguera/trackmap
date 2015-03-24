@@ -3,6 +3,7 @@ package com.mlab.map.swing;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
+import org.geotools.geometry.jts.ReferencedEnvelope;
 import org.geotools.swing.JMapPane;
 
 import com.mlab.patterns.Observer;
@@ -15,7 +16,7 @@ public interface MapView extends Observer {
 	void setMapPanelSize(int width, int height);
 	
 	JMapPane getJMapPane();
-	
+	void setDisplayArea(ReferencedEnvelope env);
 	void refreshMap();
 	
 	void addButton(JButton btn);

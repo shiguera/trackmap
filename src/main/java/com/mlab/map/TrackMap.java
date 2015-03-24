@@ -7,6 +7,7 @@ import java.io.File;
 import org.apache.log4j.Logger;
 import org.geotools.geometry.DirectPosition2D;
 import org.geotools.geometry.Envelope2D;
+import org.geotools.geometry.jts.ReferencedEnvelope;
 import org.geotools.map.Layer;
 import org.geotools.map.MapViewport;
 import org.geotools.map.WMSLayer;
@@ -52,7 +53,12 @@ public class TrackMap implements ActionListener {
 		return mapModel.baseLayer;
 	}
 	public boolean setBaseLayer(Layer layer) {
-		return mapModel.setBaseLayer(layer);
+		boolean result = mapModel.setBaseLayer(layer);
+		if (result && view != null) {
+			view.refreshMap();
+			//mapModel.getViewPort().setBounds(mapModel.getMaxBounds());
+		}
+		return result;
 	}
 	public void setBaseLayerVisible(boolean visible) {
 		mapModel.setBaseLayerVisible(visible);
@@ -123,7 +129,9 @@ public class TrackMap implements ActionListener {
 	public void setMobilePositionLatLon(WayPoint wp) {
 		//LOG.debug("LayeredMapController.setMobilePositionLonLat()");
 		mapModel.setMobilePositionLatLon(wp);
-		//mapView.refreshMap();
+		if (view != null) {
+			view.refreshMap();			
+		}
 	}
 	
 	public void setViewPort(MapViewport viewport) {
@@ -141,9 +149,24 @@ public class TrackMap implements ActionListener {
 		LOG.debug("zoomExtent()");
 		if(view != null) {
 			view.getJMapPane().reset();			
+			view.refreshMap();
 		}
 	}
-
+	public void zoomSpain() {
+	    ReferencedEnvelope geo = GeoToolsFactory.getSpainEpsg4326Bounds();
+        ReferencedEnvelope spainEnv = null;
+        try {
+			spainEnv = new ReferencedEnvelope(
+					geo.transform(mapModel.getCoordinateReferenceSystem(), true));
+			if(view != null) {
+				view.getJMapPane().setDisplayArea(spainEnv);
+				view.refreshMap();
+			}
+        } catch (Exception e) {
+			LOG.warn("zoomSpain() ERROR: Can't reproyect Spain geo envelope"+geo.toString());
+			LOG.warn(e.getMessage());
+        } 
+	}
 	public void zoomTrack() {
 		LOG.debug("zoomTrack()");
 		GpxLayer trackLayer = mapModel.getTrackLayer();
@@ -175,7 +198,26 @@ public class TrackMap implements ActionListener {
 			}			
 		}
 	}
-	
+	public void zoomLayer(Layer layer) {
+		ReferencedEnvelope env = layer.getBounds();
+		if(env.getCoordinateReferenceSystem() == null) {
+			LOG.warn("zoomLayer(): Can't zoom layer, it doesn't have CoordinateReferenceSystem");
+			return;			
+		}
+		//LOG.trace(env.getCoordinateReferenceSystem().getName().toString());
+		ReferencedEnvelope env2 = null;
+		try {
+			env2 = env.transform(mapModel.getCoordinateReferenceSystem(), true);
+			if(view != null) {
+				//LOG.debug("zoomLayer() before "+env2.toString());
+				view.setDisplayArea(env2);
+			}
+		} catch (Exception e) {
+			LOG.warn("zoomLayer(): Can't reproject layer");
+			return;
+		}
+	}
+
 	public void release() {
 		mapModel.release();
 	}

@@ -1,6 +1,5 @@
 package com.mlab.map.swing;
 
-import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 
 import javax.swing.JComboBox;
@@ -13,16 +12,16 @@ import com.mlab.map.factory.WMSFactory;
 
 public class BaseMapCombo extends JComboBox {
 	
-	TrackMap map;
+	TrackMap trackMap;
 	public BaseMapCombo(TrackMap map) {
 		super(new BaseMapSelectorModel());
-		this.map = map;
+		this.trackMap = map;
 		init();
 		
 	}
 	public BaseMapCombo(TrackMap map, WMSDescriptor[] descs) {
 		super(new BaseMapSelectorModel(descs));
-		this.map = map;
+		this.trackMap = map;
 		init();
 	}
 	private void init() {
@@ -34,8 +33,8 @@ public class BaseMapCombo extends JComboBox {
 		System.out.println("actionPerformed()");
 		WMSDescriptor d = (WMSDescriptor)getSelectedItem();
 		WMSLayer layer = WMSFactory.getWMSLayer(d);
-		if(map != null && layer != null) {
-			map.setBaseLayer(layer);
+		if(trackMap != null && layer != null) {
+			trackMap.setBaseLayer(layer);
 		}
 	}
 	public void setDefaultMaps() {

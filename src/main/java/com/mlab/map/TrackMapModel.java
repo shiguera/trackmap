@@ -146,7 +146,7 @@ public class TrackMapModel extends AbstractObservable {
 		}
 		return result;
 	}
-	private int getLayerIndex(Layer layer) {
+	public int getLayerIndex(Layer layer) {
 		return mapContent.layers().indexOf(layer);		
 	}
 	public void release() {
@@ -321,7 +321,7 @@ public class TrackMapModel extends AbstractObservable {
 		mobileLayer = createMobileLayer(startPoint);	
 		result = addLayer(mobileLayer.getLayer());
 		if(!result) {
-			LOG.error("Can't add mobileLayer to map"); 
+			LOG.error("Can't add mobileLayer to trackMap"); 
 			return false;
 		}
 		notifyObservers();

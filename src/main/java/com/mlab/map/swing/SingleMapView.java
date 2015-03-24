@@ -9,7 +9,10 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
+import org.geotools.geometry.jts.ReferencedEnvelope;
 import org.geotools.swing.JMapPane;
+import org.geotools.swing.event.MapPaneAdapter;
+import org.geotools.swing.event.MapPaneEvent;
 
 import com.mlab.map.TrackMapModel;
 import com.mlab.patterns.Observable;
@@ -33,6 +36,17 @@ public class SingleMapView implements MapView {
 	public SingleMapView(TrackMapModel mapmodel) {
 		this.model = mapmodel; 
 		jmapPane = new JMapPane(mapmodel.getMapContent());
+		jmapPane.addMapPaneListener(new MapPaneAdapter() {
+            @Override
+            public void onRenderingStarted(MapPaneEvent ev) {
+                setIsRendering(true);
+            }
+
+            @Override
+            public void onRenderingStopped(MapPaneEvent ev) {
+            	setIsRendering(false);                
+            }
+        });
 		createLayout();
 	}
 	private void createLayout() {
@@ -106,6 +120,10 @@ public class SingleMapView implements MapView {
 	@Override
 	public void update() {
 		// TODO Auto-generated method stub		
+	}
+	@Override
+	public void setDisplayArea(ReferencedEnvelope env) {
+		jmapPane.setDisplayArea(env);
 	}
 
 }

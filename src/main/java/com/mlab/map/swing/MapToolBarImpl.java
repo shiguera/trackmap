@@ -16,6 +16,9 @@ import org.geotools.swing.action.ZoomInAction;
 import org.geotools.swing.action.ZoomOutAction;
 
 import com.mlab.map.TrackMap;
+import com.mlab.map.action.ZoomExtentAction;
+import com.mlab.map.action.ZoomSpainAction;
+import com.mlab.map.action.ZoomTrackAction;
 
 public class MapToolBarImpl extends JToolBar implements MapToolBar {
 	private static final long serialVersionUID = 1L;
@@ -62,6 +65,13 @@ public class MapToolBarImpl extends JToolBar implements MapToolBar {
 		addButton(createZoomInButton(mappane));
 		addButton(createZoomOutButton(mappane));
 		addButton(createPanButton(mappane));		
+		JButton btn = new JButton(new ZoomExtentAction(map));
+		addButton(btn);
+		JButton btn2 = new JButton(new ZoomSpainAction(map));
+		addButton(btn2);
+		JButton btn3 = new JButton(new ZoomTrackAction(map));
+		addButton(btn3);
+
 	}
 
 	@Override

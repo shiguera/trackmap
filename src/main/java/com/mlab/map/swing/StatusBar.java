@@ -17,6 +17,7 @@ public class StatusBar extends JPanel {
 	
 	StatusBarLabelSRS srsLabel;
 	StatusBarLabelRendering renderingLabel;
+	JGeoCoordsStatusBarItem coordsLabel;
 	
 	public StatusBar(TrackMapModel model, JMapPane mappane) {
 		this.model = model;
@@ -35,6 +36,10 @@ public class StatusBar extends JPanel {
 		srsLabel = new StatusBarLabelSRS(model);
 		this.add(srsLabel);
 		
+		this.add(Box.createHorizontalStrut(10));
+
+		coordsLabel = new JGeoCoordsStatusBarItem(model, mapPane);
+		this.add(coordsLabel);
 		
 		
 	}

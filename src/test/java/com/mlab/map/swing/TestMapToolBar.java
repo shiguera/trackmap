@@ -22,7 +22,7 @@ public class TestMapToolBar {
 		MapView view = new SingleMapView(model);
 		
 		toolbar.setDefaultButtons(map, view.getJMapPane());
-		Assert.assertEquals(3, toolbar.getButtonsCount());
+		Assert.assertEquals(6, toolbar.getButtonsCount());
 		
 		JButton btn = toolbar.getButton(0);
 		Assert.assertNotNull(btn);
